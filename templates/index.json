@@ -334,8 +334,9 @@
         "look-1": {
           "type": "look",
           "settings": {
+            "image": "shopify://shop_images/Sfd14b4255b90460bae99cf9f6c2e8076m.webp",
             "hot_spots_background": "#ffffff",
-            "product_1": "",
+            "product_1": "classic-blinders-caps-for-men-peaky-hat-newspaper-hat-shelby-same-style-beret-mens-sunshade-hat-suit-accessories-mens-gifts",
             "product_1_horizontal_position": 24,
             "product_1_vertical_position": 35,
             "product_2": "",
@@ -379,28 +380,6 @@
         "title": "Our looks",
         "content": "",
         "popover_title": "Shop the look"
-      }
-    },
-    "countdown": {
-      "type": "countdown",
-      "settings": {
-        "color_scheme": "scheme-3",
-        "separate_section_with_border": false,
-        "image_size": "auto",
-        "subheading": "Limited time only",
-        "title": "Super Sale Up to 40% off",
-        "content": "<p>Shop our selection of exclusive handbags and backpacks at reduced price during the Super Sale. Hurry up!</p>",
-        "button_link": "shopify://collections/sale",
-        "button_text": "Shop now",
-        "expiration_date": "2035-04-25",
-        "expiration_behavior": "leave",
-        "timer_position": "end",
-        "animate_number": true,
-        "flip_background": "",
-        "flip_background_opacity": 50,
-        "flip_text_color": "",
-        "overlay_color": "#1c1c1c",
-        "overlay_opacity": 30
       }
     },
     "multiple-media-with-text": {
@@ -900,7 +879,6 @@
     "featured-collections-2",
     "video",
     "shop-the-look",
-    "countdown",
     "multiple-media-with-text",
     "before-after",
     "images-with-text-scroll",
