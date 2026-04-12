@@ -47,7 +47,7 @@
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 400,
-            "button_1_text": "View collection",
+            "button_1_text": "ADQUIRIR AGORA",
             "button_1_link": "",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
