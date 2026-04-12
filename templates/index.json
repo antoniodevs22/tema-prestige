@@ -616,6 +616,7 @@
         "item-1": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/conceito-loja.png",
             "label": "2013",
             "subheading": "",
             "title": "A story of shared vision",
