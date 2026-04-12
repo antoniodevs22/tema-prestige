@@ -382,88 +382,6 @@
         "popover_title": "Shop the look"
       }
     },
-    "multiple-media-with-text": {
-      "type": "multiple-media-with-text",
-      "blocks": {
-        "image-1": {
-          "type": "image",
-          "settings": {
-            "rotation": 0
-          }
-        },
-        "image-2": {
-          "type": "image",
-          "settings": {
-            "rotation": 0
-          }
-        }
-      },
-      "block_order": [
-        "image-1",
-        "image-2"
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "reveal_on_scroll": true,
-        "separate_section_with_border": true,
-        "media_position_desktop": "after_text",
-        "media_position_mobile": "before_text",
-        "media_layout": "overlap",
-        "media_alignment": "end",
-        "media_alignment_offset": 80,
-        "media_mobile_alignment_offset": 40,
-        "text_alignment": "center",
-        "subheading": "collaboration",
-        "title": "Us x them",
-        "content": "<p>Born from the meeting of a minimalist creative and a timeless design studio, this collection combines refined aesthetics with thoughtful craftsmanship. Their shared vision results in pieces that are both elegant and understated.</p>",
-        "button_1_text": "discover",
-        "button_1_link": "",
-        "button_1_style": "solid",
-        "button_2_text": "",
-        "button_2_link": "",
-        "button_2_style": "solid"
-      }
-    },
-    "before-after": {
-      "type": "before-after",
-      "blocks": {
-        "before-1": {
-          "type": "before",
-          "settings": {
-            "color_scheme": "scheme-1",
-            "text": "Before",
-            "link_text": "View product",
-            "link_url": "",
-            "link_style": "link"
-          }
-        },
-        "after-1": {
-          "type": "after",
-          "settings": {
-            "color_scheme": "scheme-1",
-            "text": "After",
-            "link_text": "View product",
-            "link_url": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "before-1",
-        "after-1"
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "separate_section_with_border": false,
-        "subheading": "Our bag",
-        "title": "Choose your colour",
-        "content": "<p>Showcase your product benefit by using before/after image comparison.</p>",
-        "cursor_direction": "horizontal",
-        "cursor_initial_position": 50,
-        "cursor_background": "#ffffff",
-        "cursor_arrows_color": "#000000"
-      }
-    },
     "images-with-text-scroll": {
       "type": "images-with-text-scroll",
       "blocks": {
@@ -549,12 +467,6 @@
           "type": "separator",
           "settings": {}
         },
-        "description-1": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
-        },
         "variant-picker-1": {
           "type": "variant_picker",
           "settings": {
@@ -591,7 +503,6 @@
         "price-1",
         "payment-terms-1",
         "separator-1",
-        "description-1",
         "variant-picker-1",
         "quantity-selector-1",
         "buy-buttons-1",
@@ -599,7 +510,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-1",
-        "product": "",
+        "product": "mens-deerskin-fleece-jacket-suit-coat-blazer-mens-business-leisure-slim-fit-brand-fashion-high-quality-single-button-suit-coat",
         "separate_section_with_border": true,
         "container_size": "lg",
         "product_info_size": 45,
@@ -879,8 +790,6 @@
     "featured-collections-2",
     "video",
     "shop-the-look",
-    "multiple-media-with-text",
-    "before-after",
     "images-with-text-scroll",
     "blog-posts",
     "featured-product",
