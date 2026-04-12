@@ -92,7 +92,7 @@
         "links": {
           "type": "links",
           "settings": {
-            "menu": "footer",
+            "menu": "links-teis",
             "show_menu_title": true,
             "menu_title": ""
           }
