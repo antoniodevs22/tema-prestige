@@ -381,6 +381,22 @@
                 payment_button_text_color: block.settings.payment_button_text_color
             -%}
 
+            {%- comment -%}Mr Cavalheiros: Trust Badges V2{%- endcomment -%}
+            <div class="trust-badges-bespoke">
+               <div class="trust-badge">
+                 {%- render 'icon' with 'box' -%}
+                 <span>Envio Segurado Heritage</span>
+               </div>
+               <div class="trust-badge">
+                 {%- render 'icon' with 'check-circle' -%}
+                 <span>Qualidade Bespoke Garantida</span>
+               </div>
+               <div class="trust-badge">
+                 {%- render 'icon' with 'refresh' -%}
+                 <span>Troca Sem Atrito</span>
+               </div>
+            </div>
+
           {%- when 'pickup_availability' -%}
             {%- if product != blank -%}
               {%- render 'pickup-availability', product_variant: product.selected_or_first_available_variant -%}
