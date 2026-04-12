@@ -409,23 +409,11 @@
             "link_url": "",
             "link_style": "link"
           }
-        },
-        "image-with-text-2": {
-          "type": "image_with_text",
-          "settings": {
-            "subheading": "#2",
-            "title": "Our commitments",
-            "content": "<p>From the very beginning, responsibility has been a core value — both towards you and the environment. From design to distribution, each step is approached with care to create pieces that are timeless, high quality, and fairly priced.</p>",
-            "link_text": "Learn more",
-            "link_url": "",
-            "link_style": "link"
-          }
         }
       },
       "block_order": [
         "image_with_text_MNhqAB",
-        "image-with-text-1",
-        "image-with-text-2"
+        "image-with-text-1"
       ],
       "settings": {
         "color_scheme": "scheme-3",
