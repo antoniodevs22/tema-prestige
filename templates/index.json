@@ -536,7 +536,7 @@
         "testimonial-2": {
           "type": "testimonial",
           "settings": {
-            "content": "<p>Whether in classic black or a bold tone, it stands out for its smart compartments and refined leather finish.</p>",
+            "content": "<p><em>\"O relógio de bolso superou minhas expectativas. É o peso da história no meu paletó. Atendimento impecável.\"</em> — <strong>Thomas S.</strong></p>",
             "logo_max_width": 140,
             "logo_mobile_max_width": 100,
             "author": ""
