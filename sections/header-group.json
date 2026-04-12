@@ -11,18 +11,6 @@
   "type": "header",
   "name": "Header group",
   "sections": {
-    "countdown-timer": {
-      "type": "countdown-condensed",
-      "settings": {
-        "color_scheme": "schema-3",
-        "content": "super Sale Up to 40% off",
-        "link_text": "shop now",
-        "link_url": "shopify://collections/all",
-        "expiration_date": "2025-11-25",
-        "expiration_behavior": "leave",
-        "desktop_justification": "space-between"
-      }
-    },
     "header": {
       "type": "header",
       "settings": {
@@ -35,6 +23,8 @@
         "logo_max_width": 130,
         "logo_mobile_max_width": 80,
         "menu": "main-menu",
+        "sidebar_menu": "",
+        "customer_account_menu": "customer-account-main-menu",
         "menu_open_trigger": "hover",
         "menu_text_font": "heading",
         "enable_search": true,
@@ -53,7 +43,6 @@
     }
   },
   "order": [
-    "countdown-timer",
     "header"
   ]
 }
