@@ -387,6 +387,18 @@
     "images-with-text-scroll": {
       "type": "images-with-text-scroll",
       "blocks": {
+        "image_with_text_MNhqAB": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/luxury_cufflinks_pen_noir.jpg",
+            "subheading": "",
+            "title": "Title",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
         "image-with-text-1": {
           "type": "image_with_text",
           "settings": {
@@ -411,6 +423,7 @@
         }
       },
       "block_order": [
+        "image_with_text_MNhqAB",
         "image-with-text-1",
         "image-with-text-2"
       ],
