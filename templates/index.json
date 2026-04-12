@@ -416,6 +416,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-3",
+        "background_image": "shopify://shop_images/banner-sapatos.jpg",
         "image_position": "start",
         "text_alignment": "center",
         "heading_tag": "h3",
