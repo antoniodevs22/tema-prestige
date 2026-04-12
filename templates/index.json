@@ -527,7 +527,7 @@
         "testimonial-1": {
           "type": "testimonial",
           "settings": {
-            "content": "<p>Sleek and compact, this piece keeps everything organized with just the right balance of structure and softness.</p>",
+            "content": "<p><em>\"A qualidade do Tweed é impressionante. Senti a diferença no corte assim que vesti. Finalmente uma marca que respeita a tradição.\"</em> — <strong>Arthur S.</strong></p>",
             "logo_max_width": 140,
             "logo_mobile_max_width": 100,
             "author": ""
