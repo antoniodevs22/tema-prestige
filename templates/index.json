@@ -601,10 +601,10 @@
         "color_scheme": "scheme-3",
         "separate_section_with_border": true,
         "image_size": "md",
-        "subheading": "Keep me updated",
-        "title": "Newsletter",
-        "content": "<p>Subscribe to get notified about product launches, special offers and company news.</p>",
-        "button_text": "Subscribe",
+        "subheading": "CONVITE EXCLUSIVO",
+        "title": "FAÇA PARTE DA ORDEM",
+        "content": "<p>Entre para o nosso círculo interno. Receba acesso antecipado a novas coleções e conteúdos sobre o lifestyle de um verdadeiro cavalheiro.</p><p></p>",
+        "button_text": "juntar-se",
         "overlay_color": "#000000",
         "overlay_opacity": 30
       }
