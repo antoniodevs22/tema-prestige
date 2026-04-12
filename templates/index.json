@@ -131,8 +131,8 @@
           "type": "button",
           "settings": {
             "style": "solid",
-            "text": "Shop",
-            "url": "",
+            "text": "EXPLORAR ACESSÓRIOS",
+            "url": "shopify://collections",
             "background": "#ffffff",
             "text_color": "#1c1c1c"
           }
