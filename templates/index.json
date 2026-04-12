@@ -545,7 +545,7 @@
         "testimonial-3": {
           "type": "testimonial",
           "settings": {
-            "content": "<p>Minimalist design meets everyday function — perfect for keeping your essentials secure and stylish on the go.</p>",
+            "content": "<p><em>A Mr. Cavalheiros não entrega apenas roupas, entrega uma nova postura. Indispensável para quem busca autoridade.\"</em> — <strong>John L.</strong></p>",
             "logo_max_width": 140,
             "logo_mobile_max_width": 100,
             "author": ""
