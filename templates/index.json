@@ -157,6 +157,7 @@
       "settings": {
         "color_scheme": "scheme-4",
         "image_size": "sm",
+        "image": "shopify://shop_images/a656feac-b746-46b3-9da6-3f3bc88be6b8.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": true,
         "remove_vertical_spacing": true,
