@@ -532,42 +532,6 @@
         "content": ""
       }
     },
-    "image-with-text-block": {
-      "type": "image-with-text-block",
-      "blocks": {
-        "subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "text": "Materials"
-          }
-        },
-        "richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>We only work with the best leather, chosen in collaboration with our factory.</p>"
-          }
-        },
-        "link-1": {
-          "type": "link",
-          "settings": {
-            "text": "Learn more",
-            "url": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading-1",
-        "richtext-1",
-        "link-1"
-      ],
-      "settings": {
-        "color_scheme": "scheme-2",
-        "image_size": "md",
-        "content_width": "md",
-        "enable_parallax": false,
-        "remove_vertical_spacing": true
-      }
-    },
     "testimonials": {
       "type": "testimonials",
       "blocks": {
@@ -712,7 +676,6 @@
     "images-with-text-scroll",
     "blog-posts",
     "featured-product",
-    "image-with-text-block",
     "testimonials",
     "timeline",
     "newsletter"
