@@ -177,8 +177,8 @@
         "link-2": {
           "type": "link",
           "settings": {
-            "text": "Commitments",
-            "url": ""
+            "text": "Nosso Compromisso",
+            "url": "shopify://pages/nosso-compromisso"
           }
         }
       },
