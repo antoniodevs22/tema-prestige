@@ -87,7 +87,7 @@
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "colecao-assinatura",
             "products_count": 8,
             "title": "Women",
             "link_url": "shopify://collections/all",
