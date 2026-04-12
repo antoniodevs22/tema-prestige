@@ -73,14 +73,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "links_FT8CRj": {
-          "type": "links",
-          "settings": {
-            "menu": "links-teis",
-            "show_menu_title": true,
-            "menu_title": ""
-          }
-        },
         "text_Q9DMak": {
           "type": "text",
           "settings": {
@@ -100,6 +92,14 @@
         "links": {
           "type": "links",
           "settings": {
+            "menu": "footer",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
+        "links_FT8CRj": {
+          "type": "links",
+          "settings": {
             "menu": "links-teis",
             "show_menu_title": true,
             "menu_title": ""
@@ -107,10 +107,10 @@
         }
       },
       "block_order": [
-        "links_FT8CRj",
         "text_Q9DMak",
         "text",
-        "links"
+        "links",
+        "links_FT8CRj"
       ],
       "settings": {
         "color_scheme": "",
