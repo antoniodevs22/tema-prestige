@@ -15,6 +15,7 @@
         "slide-1": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/banner-impacto.jpg",
             "subheading": "Our bag",
             "title": "Inspired by the 90s",
             "mobile_text_position": "place-self-center text-center",
@@ -679,93 +680,6 @@
         "separate_section_with_border": false
       }
     },
-    "image-with-text-overlay-2": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Our values",
-            "heading_tag": "h3"
-          }
-        },
-        "richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>We aspire to be a brand of the 21st century: 100% online and without any intermediary.<br/>From you to us directly.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading-1",
-        "richtext-1"
-      ],
-      "settings": {
-        "color_scheme": "scheme-4",
-        "image_size": "auto",
-        "allow_transparent_header": false,
-        "reveal_on_scroll": true,
-        "remove_vertical_spacing": true,
-        "content_width": "xs",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "multi-column": {
-      "type": "multi-column",
-      "blocks": {
-        "image-with-text-1": {
-          "type": "image_with_text",
-          "settings": {
-            "title": "The design",
-            "heading_tag": "h4",
-            "content": "<p>Every product is imagined and developed in our studio, with a focus on both form and function.</p>",
-            "link_url": "",
-            "link_text": ""
-          }
-        },
-        "image-with-text-2": {
-          "type": "image_with_text",
-          "settings": {
-            "title": "Materials",
-            "heading_tag": "h4",
-            "content": "<p>Our materials come from hides sourced as byproducts of the food industry. We collaborate exclusively with trusted tanneries based in Italy, France, and Spain.</p>",
-            "link_url": "",
-            "link_text": ""
-          }
-        },
-        "image-with-text-3": {
-          "type": "image_with_text",
-          "settings": {
-            "title": "The know-how",
-            "heading_tag": "h4",
-            "content": "<p>Every step of the process follows the rigorous standards of traditional leatherworking—ensuring durability, precision, and lasting quality.</p>",
-            "link_url": "",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "image-with-text-1",
-        "image-with-text-2",
-        "image-with-text-3"
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "separate_section_with_border": true,
-        "columns_per_row": 3,
-        "stack_on_mobile": false,
-        "overlap_image": false,
-        "content_alignment": "center",
-        "text_alignment": "center",
-        "spacing": "md",
-        "subheading": "About us",
-        "title": "From A to Z",
-        "content": ""
-      }
-    },
     "newsletter": {
       "type": "newsletter",
       "settings": {
@@ -797,8 +711,6 @@
     "image-with-text-block",
     "testimonials",
     "timeline",
-    "image-with-text-overlay-2",
-    "multi-column",
     "newsletter"
   ]
 }
