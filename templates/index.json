@@ -89,25 +89,14 @@
           "settings": {
             "collection": "colecao-assinatura",
             "products_count": 8,
-            "title": "Women",
-            "link_url": "shopify://collections/all",
-            "link_text": "All women's bags"
-          }
-        },
-        "collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "products_count": 8,
-            "title": "Men",
-            "link_url": "shopify://collections/all",
-            "link_text": "All men's bags"
+            "title": "EXPLORAR COLEÇÃO",
+            "link_url": "shopify://collections/colecao-assinatura",
+            "link_text": "EXPLORAR COLEÇÃO"
           }
         }
       },
       "block_order": [
-        "collection-1",
-        "collection-2"
+        "collection-1"
       ],
       "settings": {
         "color_scheme": "scheme-1",
@@ -118,7 +107,7 @@
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
-        "subheading": "Our best sellers",
+        "subheading": "Destaques da Alfaiataria",
         "hide_collection_title": false
       }
     },
