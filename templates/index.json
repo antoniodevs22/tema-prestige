@@ -89,7 +89,7 @@
           "settings": {
             "collection": "colecao-assinatura",
             "products_count": 8,
-            "title": "EXPLORAR COLEÇÃO",
+            "title": "<strong>COLEÇÃO ASSINATURA</strong>.",
             "link_url": "shopify://collections/colecao-assinatura",
             "link_text": "EXPLORAR COLEÇÃO"
           }
