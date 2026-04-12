@@ -73,6 +73,14 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "links_FT8CRj": {
+          "type": "links",
+          "settings": {
+            "menu": "links-teis",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
         "text_Q9DMak": {
           "type": "text",
           "settings": {
@@ -99,6 +107,7 @@
         }
       },
       "block_order": [
+        "links_FT8CRj",
         "text_Q9DMak",
         "text",
         "links"
