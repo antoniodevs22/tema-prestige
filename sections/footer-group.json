@@ -81,14 +81,6 @@
             "enable_follow_on_shop": true
           }
         },
-        "text": {
-          "type": "text",
-          "settings": {
-            "title": "SAC - SERVIÇO DE ATENDIMENTO AO CLIENTE",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
-            "enable_follow_on_shop": true
-          }
-        },
         "links": {
           "type": "links",
           "settings": {
@@ -104,13 +96,21 @@
             "show_menu_title": true,
             "menu_title": ""
           }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "title": "SAC - SERVIÇO DE ATENDIMENTO AO CLIENTE",
+            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
+            "enable_follow_on_shop": true
+          }
         }
       },
       "block_order": [
         "text_Q9DMak",
-        "text",
         "links",
-        "links_FT8CRj"
+        "links_FT8CRj",
+        "text"
       ],
       "settings": {
         "color_scheme": "",
