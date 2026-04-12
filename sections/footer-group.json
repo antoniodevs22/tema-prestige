@@ -50,8 +50,8 @@
             "icon": "picto-award-gift",
             "icon_width": 24,
             "mobile_icon_width": 24,
-            "title": "Secure payments",
-            "content": "<p>Short content about your store</p>"
+            "title": "<strong>PAGAMENTO BLINDADO</strong>",
+            "content": "<p>Transações criptografadas com o mais alto nível de segurança bancária<br/></p>"
           }
         }
       },
