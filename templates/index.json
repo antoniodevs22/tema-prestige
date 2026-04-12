@@ -170,8 +170,8 @@
         "link-1": {
           "type": "link",
           "settings": {
-            "text": "Our story",
-            "url": ""
+            "text": "Nossa Jornada",
+            "url": "shopify://pages/nossa-jornada"
           }
         },
         "link-2": {
