@@ -114,7 +114,7 @@
     "price": {
       "regular_price": "Preço normal",
       "sale_price": "Preço promocional",
-      "from_price_html": "De {{ price_min }}"
+      "from_price_html": "{{ price_min }}"
     },
     "quantity": {
       "label": "Quantidade",
@@ -163,7 +163,7 @@
   "collection": {
     "general": {
       "empty_collection": "Essa coleção está vazia",
-      "all_collections": "Todas as coleções",
+      "all_collections": "O ARSENAL MR. CAVALHEIROS",
       "no_collections": "Essa loja não tem nenhuma coleção.",
       "continue_shopping": "Continuar comprando"
     },
