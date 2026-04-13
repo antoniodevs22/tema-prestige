@@ -50,28 +50,29 @@
 }
 
 /* 1.1 EXCEÇÃO HEADER (SINCRONIZAÇÃO TOTAL COM O LOGO) */
-/* Reset padrão para garantir que o menu siga a cor natural do cabeçalho (x-header) */
-/* Como o seu logo "Minha Loja" já funciona perfeitamente, forçar a HERANÇA fará o menu se comportar igual. */
+/* Reset total para herdar as cores do tema (Branco no topo / Preto no scroll) */
 .header__primary-nav-item a,
 .header__menu-disclosure summary,
 .header__account-link,
 .header__search-link,
 .header__cart-link,
-.header__secondary-nav a {
+.header__secondary-nav a,
+.header__logo-text {
   color: inherit !important;
   background: none !important;
   border: none !important;
   transition: none !important;
 }
 
-/* Única exceção forçada: Quando o mouse passa por cima (Hover), tudo vira PRETO para legibilidade */
+/* Cores suavizadas no Hover e Scroll (Preto Suave) */
 .header:hover .header__primary-nav-item a,
 .header:hover .header__menu-disclosure summary,
 .header:hover .header__account-link,
 .header:hover .header__search-link,
 .header:hover .header__cart-link,
-.header:hover .header__secondary-nav a {
-  color: #000000 !important;
+.header:hover .header__secondary-nav a,
+.header:hover .header__logo-text {
+  color: #2D2D2D !important;
 }
 
 /* Apenas a listinha (underline) do thema na cor ouro */
@@ -204,4 +205,22 @@ button[type="submit"]:hover,
 .shopify-section--timeline .timeline__nav button[aria-current="true"] {
   opacity: 1 !important;
   border-bottom: 2px solid #C5A059 !important;
+}
+
+/* 7. LOGO REFINADO (MENOR E SUAVE) */
+.header__logo-text {
+  font-family: 'Playfair Display', serif !important;
+  font-size: 1.35rem !important; /* Tamanho reduzido */
+  font-weight: 500 !important;
+  letter-spacing: 0.05em !important;
+  text-transform: none !important;
+  font-style: italic;
+  display: inline-block;
+  line-height: 1;
+}
+
+@media screen and (max-width: 699px) {
+  .header__logo-text {
+    font-size: 1.1rem !important;
+  }
 }
