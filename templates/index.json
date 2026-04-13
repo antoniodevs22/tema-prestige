@@ -392,7 +392,7 @@
         "image-with-text-1": {
           "type": "image_with_text",
           "settings": {
-            "subheading": "#1",
+            "subheading": "",
             "title": "NOSSO COMPROMISSO",
             "content": "<p>Lealdade à tradição e obsessão pelo detalhe. Na Mr. Cavalheiros, não entregamos apenas roupas; entregamos a confiança necessária para dominar o seu império.</p>",
             "link_text": "",
