@@ -420,7 +420,7 @@
       "settings": {
         "color_scheme": "scheme-1",
         "separate_section_with_border": true,
-        "blog": "news",
+        "blog": "o-manifesto",
         "posts_count": 3,
         "stack_on_mobile": false,
         "show_category": true,
