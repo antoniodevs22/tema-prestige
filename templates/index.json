@@ -289,13 +289,13 @@
         "subheading-1": {
           "type": "subheading",
           "settings": {
-            "text": "Made in Italy"
+            "text": ""
           }
         },
         "heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Finest handmade",
+            "text": "",
             "heading_tag": "h2"
           }
         },

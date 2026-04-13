@@ -1,5 +1,5 @@
-/* mr-cavalheiros-core.css - Restauração da Peça de Arte */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap');
+/* mr-cavalheiros-core.css - RESTAURAÇÃO TOTAL DE DNA */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:wght@300;400;500;600;700;800&display=swap');
 
 :root {
   /* Variáveis de Ouro Envelhecido (Aged Gold) */
@@ -8,30 +8,80 @@
   --pb-gold-gradient: linear-gradient(135deg, #C5A059 0%, #8B6914 100%);
   
   /* Tipografias de Elite */
-  --font-heading-family: 'Playfair Display', serif !important; /* Hierarquia de peso */
-  --font-body-family: 'Montserrat', sans-serif !important; /* Respiro */
+  --font-heading-family: 'Playfair Display', serif;
+  --font-body-family: 'Montserrat', sans-serif;
 }
 
-/* 1. RESTAURAÇÃO DA TIPOGRAFIA */
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .heading {
-  font-family: var(--font-heading-family);
-  letter-spacing: 0.05em;
+/* 1. UNIFICAÇÃO CROMÁTICA E TIPOGRÁFICA (Acento de Ouro) */
+.gold-accent,
+.shopify-section:not(.shopify-section--header):not(.shopify-section--slideshow):not(.shopify-section--newsletter) .h6, 
+.shopify-section:not(.shopify-section--header):not(.shopify-section--slideshow):not(.shopify-section--newsletter) .subheading, 
+.shopify-section:not(.shopify-section--header):not(.shopify-section--slideshow):not(.shopify-section--newsletter) .section-header__subheading,
+.shopify-section--timeline .timeline__item-content .h6 {
+  color: #C5A059 !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.15em !important;
 }
 
-body, p, span, a, .prose {
-  font-family: var(--font-body-family);
+/* 1.2 EXCEÇÃO SLIDESHOW (SUB-TÍTULOS DOS BANNERS BRANCOS) */
+.shopify-section--slideshow .h6,
+.shopify-section--slideshow .subheading {
+  color: #FFFFFF !important;
 }
 
-/* O ouro apenas como highlight natural do texto onde o tema original pedir destaque */
-.text-gold {
-  background: var(--pb-gold-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+/* 1.3 EXCEÇÃO VÍDEO (NOME DA MARCA EM CASE MISTO) */
+.shopify-section--video .h6 {
+  text-transform: none !important;
 }
 
-/* 2. REFINAMENTO DE BOTÕES (Luxo sem pesar o fundo) 
-   Afeta apenas CTAs principais mantendo as cores nativas do tema
-*/
+/* 1.4 LINKS COM ACENTO DE OURO (RICH TEXT) */
+.shopify-section--rich-text .link {
+  color: #C5A059 !important;
+  text-decoration-color: #C5A059 !important;
+}
+
+/* 1.5 TÍTULOS DE COLEÇÃO E BREADCRUMBS (LEGIBILIDADE) */
+.shopify-section--collection-banner .h1,
+.shopify-section--collection-banner .breadcrumb a,
+.shopify-section--collection-banner .breadcrumb__list-item {
+  color: #000000 !important;
+}
+
+/* 1.1 EXCEÇÃO HEADER (SINCRONIZAÇÃO TOTAL COM O LOGO) */
+/* Reset padrão para garantir que o menu siga a cor natural do cabeçalho (x-header) */
+/* Como o seu logo "Minha Loja" já funciona perfeitamente, forçar a HERANÇA fará o menu se comportar igual. */
+.header__primary-nav-item a,
+.header__menu-disclosure summary,
+.header__account-link,
+.header__search-link,
+.header__cart-link,
+.header__secondary-nav a {
+  color: inherit !important;
+  background: none !important;
+  border: none !important;
+  transition: none !important;
+}
+
+/* Única exceção forçada: Quando o mouse passa por cima (Hover), tudo vira PRETO para legibilidade */
+.header:hover .header__primary-nav-item a,
+.header:hover .header__menu-disclosure summary,
+.header:hover .header__account-link,
+.header:hover .header__search-link,
+.header:hover .header__cart-link,
+.header:hover .header__secondary-nav a {
+  color: #000000 !important;
+}
+
+/* Apenas a listinha (underline) do thema na cor ouro */
+.header__primary-nav-item a::after,
+.header__menu-disclosure summary::after {
+  background-color: #C5A059 !important;
+  height: 2px !important;
+}
+
+/* 2. REFINAMENTO DE BOTÕES */
 .button, 
 button[type="submit"], 
 .shopify-payment-button__button,
@@ -42,10 +92,8 @@ button[type="submit"],
   text-transform: uppercase !important;
   letter-spacing: 2px !important;
   transition: all 0.4s ease-in-out !important; 
-  box-shadow: none !important;
 }
 
-/* O hover elegante: Texto ouro envelhecido e leve glow ao redor */
 .button:hover, 
 button[type="submit"]:hover,
 .shopify-payment-button__button:hover,
@@ -56,42 +104,104 @@ button[type="submit"]:hover,
   color: var(--pb-aged-gold) !important;
 }
 
-/* 3. GARANTIAS NATIVAS (Text-with-icons)
-   Alvo: As badges acima do rodapé nativas da Shopify
-*/
+/* 3. SEÇÃO TEXT-WITH-ICONS - PROTOCOLO ELEGÂNCIA REFINADO */
+.shopify-section--text-with-icons .text-with-icons__item,
+.text-with-icons__item {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
 .shopify-section--text-with-icons svg,
 .text-with-icons svg {
-  fill: var(--pb-aged-gold) !important;
-  color: var(--pb-aged-gold) !important;
+  fill: none !important;
+  stroke: #C5A059 !important;
+  stroke-width: 1px !important;
+  color: #C5A059 !important;
+  margin-bottom: 0.25rem !important;
 }
 
-.text-with-icons__item-title {
-  font-family: var(--font-body-family) !important;
-  color: var(--pb-text-base) !important;
+.shopify-section--text-with-icons .h6,
+.text-with-icons .h6 {
+  margin-top: 0 !important;
+  margin-bottom: 0.5rem !important;
 }
 
-/* 4. RODAPÉ DE LUXO (FOOTER) 
-   Garantindo a restrição do preto absoluto no rodapé como ordenado.
-*/
-.shopify-section--footer .footer, 
-.footer {
+.shopify-section--text-with-icons .prose,
+.shopify-section--text-with-icons .prose p,
+.text-with-icons .prose p {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 400 !important;
+  color: #000000 !important;
+  line-height: 1.6 !important;
+  font-size: 14px !important;
+  max-width: 230px !important; 
+  margin: 0 auto !important;
+}
+
+/* 4. RODAPÉ DE LUXO (FOOTER) - PRESERVADO */
+.footer, .shopify-section--footer {
   background-color: #0A0A0A !important;
-  color: #FAFAFA !important;
-  border-top: 1px solid rgba(197, 160, 89, 0.2) !important;
+  color: #FFFFFF !important;
 }
 
-.footer a, .footer p, .footer span, .footer .heading {
-  color: #e0e0e0 !important;
-  transition: all 0.3s ease-in-out;
+.footer .heading, 
+.footer-heading, 
+.footer .h6, 
+.footer h6 {
+  font-family: 'Playfair Display', serif !important;
+  color: #C5A059 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+  margin-bottom: 1.5rem !important;
 }
 
-.footer .heading, .footer-heading, .footer .h6, .footer h6 {
-  font-family: var(--font-heading-family) !important;
-  color: var(--pb-aged-gold) !important; /* FOCO TOTAL NO OURO ENVELHECIDO */
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+.footer a, .footer p, .footer span, .footer li {
+  color: #DDDDDD !important;
 }
 
-.footer a:hover {
-  color: var(--pb-aged-gold) !important;
+/* 5. NEWSLETTER (Convite Exclusivo) */
+.shopify-section--newsletter .section-header .h2,
+.shopify-section--newsletter .section-header h2 {
+  font-family: 'Playfair Display', serif !important;
+  font-style: italic !important;
+  letter-spacing: 0.08em !important;
+  color: #C5A059 !important;
+}
+
+.shopify-section--newsletter .section-header .h6 {
+  color: #FFFFFF !important;
+}
+
+/* 6. TIMELINE (A Jornada do Cavalheiro) */
+.shopify-section--timeline .timeline__nav {
+  justify-content: center !important;
+  display: flex !important;
+  gap: 2rem !important;
+  margin-top: 3rem !important;
+}
+
+.shopify-section--timeline .timeline__nav button {
+  color: #C5A059 !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+  opacity: 0.6;
+  padding-bottom: 12px !important;
+  position: relative !important;
+}
+
+.shopify-section--timeline .timeline__nav button::after,
+.shopify-section--timeline .timeline__nav button::before {
+  display: none !important;
+}
+
+.shopify-section--timeline .timeline__nav button[aria-current="true"] {
+  opacity: 1 !important;
+  border-bottom: 2px solid #C5A059 !important;
 }
