@@ -1,0 +1,97 @@
+/* mr-cavalheiros-core.css - Restauração da Peça de Arte */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap');
+
+:root {
+  /* Variáveis de Ouro Envelhecido (Aged Gold) */
+  --pb-aged-gold: #C5A059;
+  --pb-aged-gold-dark: #8B6914;
+  --pb-gold-gradient: linear-gradient(135deg, #C5A059 0%, #8B6914 100%);
+  
+  /* Tipografias de Elite */
+  --font-heading-family: 'Playfair Display', serif !important; /* Hierarquia de peso */
+  --font-body-family: 'Montserrat', sans-serif !important; /* Respiro */
+}
+
+/* 1. RESTAURAÇÃO DA TIPOGRAFIA */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .heading {
+  font-family: var(--font-heading-family);
+  letter-spacing: 0.05em;
+}
+
+body, p, span, a, .prose {
+  font-family: var(--font-body-family);
+}
+
+/* O ouro apenas como highlight natural do texto onde o tema original pedir destaque */
+.text-gold {
+  background: var(--pb-gold-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* 2. REFINAMENTO DE BOTÕES (Luxo sem pesar o fundo) 
+   Afeta apenas CTAs principais mantendo as cores nativas do tema
+*/
+.button, 
+button[type="submit"], 
+.shopify-payment-button__button,
+.product-form__submit {
+  border-radius: 0px !important; 
+  font-family: var(--font-body-family) !important;
+  font-weight: 500 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 2px !important;
+  transition: all 0.4s ease-in-out !important; 
+  box-shadow: none !important;
+}
+
+/* O hover elegante: Texto ouro envelhecido e leve glow ao redor */
+.button:hover, 
+button[type="submit"]:hover,
+.shopify-payment-button__button:hover,
+.product-form__submit:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(197, 160, 89, 0.25) !important;
+  border-color: var(--pb-aged-gold) !important;
+  color: var(--pb-aged-gold) !important;
+}
+
+/* 3. GARANTIAS NATIVAS (Text-with-icons)
+   Alvo: As badges acima do rodapé nativas da Shopify
+*/
+.shopify-section--text-with-icons svg,
+.text-with-icons svg {
+  fill: var(--pb-aged-gold) !important;
+  color: var(--pb-aged-gold) !important;
+}
+
+.text-with-icons__item-title {
+  font-family: var(--font-body-family) !important;
+  color: var(--pb-text-base) !important;
+}
+
+/* 4. RODAPÉ DE LUXO (FOOTER) 
+   Garantindo a restrição do preto absoluto no rodapé como ordenado.
+*/
+.shopify-section--footer .footer, 
+.footer {
+  background-color: #0A0A0A !important;
+  color: #FAFAFA !important;
+  border-top: 1px solid rgba(197, 160, 89, 0.2) !important;
+}
+
+.footer a, .footer p, .footer span, .footer .heading {
+  color: #e0e0e0 !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer .heading, .footer-heading, .footer .h6, .footer h6 {
+  font-family: var(--font-heading-family) !important;
+  color: var(--pb-aged-gold) !important; /* FOCO TOTAL NO OURO ENVELHECIDO */
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.footer a:hover {
+  color: var(--pb-aged-gold) !important;
+}

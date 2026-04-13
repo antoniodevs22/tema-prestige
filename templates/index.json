@@ -16,8 +16,8 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/banner-impacto.jpg",
-            "subheading": "Our bag",
-            "title": "Inspired by the 90s",
+            "subheading": "ESTILO É UMA ARMADURA",
+            "title": "A ORDEM DOS CAVALHEIROS",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
@@ -42,12 +42,12 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/banner-relogio.jpg",
-            "subheading": "Our bag",
-            "title": "Elegant & Timeless",
+            "subheading": "O TEMPO É O SEU MAIOR ATIVO",
+            "title": "DOMINE CADA SEGUNDO",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 400,
-            "button_1_text": "View collection",
+            "button_1_text": "ADQUIRIR AGORA",
             "button_1_link": "",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
@@ -89,25 +89,14 @@
           "settings": {
             "collection": "colecao-assinatura",
             "products_count": 8,
-            "title": "Women",
-            "link_url": "shopify://collections/all",
-            "link_text": "All women's bags"
-          }
-        },
-        "collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "products_count": 8,
-            "title": "Men",
-            "link_url": "shopify://collections/all",
-            "link_text": "All men's bags"
+            "title": "<strong>COLEÇÃO ASSINATURA</strong>.",
+            "link_url": "shopify://collections/colecao-assinatura",
+            "link_text": "EXPLORAR COLEÇÃO"
           }
         }
       },
       "block_order": [
-        "collection-1",
-        "collection-2"
+        "collection-1"
       ],
       "settings": {
         "color_scheme": "scheme-1",
@@ -118,7 +107,7 @@
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
-        "subheading": "Our best sellers",
+        "subheading": "Destaques da Alfaiataria",
         "hide_collection_title": false
       }
     },
@@ -128,13 +117,13 @@
         "subheading-1": {
           "type": "subheading",
           "settings": {
-            "text": "New product"
+            "text": "NOSSO COMPROMISSO"
           }
         },
         "heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Our backpack",
+            "text": "A EXCELÊNCIA ESTÁ NOS DETALHES",
             "heading_tag": "h2"
           }
         },
@@ -142,8 +131,8 @@
           "type": "button",
           "settings": {
             "style": "solid",
-            "text": "Shop",
-            "url": "",
+            "text": "EXPLORAR ACESSÓRIOS",
+            "url": "shopify://collections",
             "background": "#ffffff",
             "text_color": "#1c1c1c"
           }
@@ -174,22 +163,22 @@
         "heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Our aim: offer elegant, timeless & functional products",
+            "text": "O LEGADO DE UM VERDADEIRO CAVALHEIRO.",
             "heading_tag": "h1"
           }
         },
         "link-1": {
           "type": "link",
           "settings": {
-            "text": "Our story",
-            "url": ""
+            "text": "Nossa Jornada",
+            "url": "shopify://pages/nossa-jornada"
           }
         },
         "link-2": {
           "type": "link",
           "settings": {
-            "text": "Commitments",
-            "url": ""
+            "text": "Nosso Compromisso",
+            "url": "shopify://pages/nosso-compromisso"
           }
         }
       },
@@ -212,7 +201,7 @@
         "text-1": {
           "type": "text",
           "settings": {
-            "text": "New: our bag"
+            "text": "O LUXO ESTÁ NOS DETALHES • FEITO PARA QUEM COMANDA O PRÓPRIO DESTINO • TRADIÇÃO E ATITUDE •"
           }
         }
       },
@@ -241,7 +230,7 @@
         "text-1": {
           "type": "text",
           "settings": {
-            "text": "Show new arrivals"
+            "text": "ESTILO É UMA ARMADURA QUE VOCÊ USA TODOS OS DIAS • PELA ORDEM DOS MR. CAVALHEIROS • QUALIDADE INEGOCIÁVEL •"
           }
         }
       },
@@ -272,9 +261,9 @@
           "settings": {
             "collection": "chapelaria-heritage",
             "products_count": 5,
-            "title": "Ideal for a weekend outing",
+            "title": "CHAPELARIA HERITAGE",
             "link_url": "",
-            "link_text": "View all"
+            "link_text": "EXPLORAR BOINAS"
           }
         }
       },
@@ -290,7 +279,7 @@
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
-        "subheading": "Be classy",
+        "subheading": "<strong>O TOQUE FINAL</strong>",
         "hide_collection_title": false
       }
     },
@@ -393,8 +382,8 @@
           "settings": {
             "image": "shopify://shop_images/luxury_cufflinks_pen_noir.jpg",
             "subheading": "",
-            "title": "Title",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "title": "O DESIGN DE UMA ARMADURA",
+            "content": "<p>Cada peça é projetada com um propósito: vestir o homem que não aceita o comum. Nossos cortes são pensados para impor respeito antes mesmo da primeira palavra ser dita.</p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
@@ -403,10 +392,10 @@
         "image-with-text-1": {
           "type": "image_with_text",
           "settings": {
-            "subheading": "#1",
-            "title": "The Design",
-            "content": "<p>Each piece is designed with your needs at heart. All products are imagined and developed in our studio, where ideas often stem from the thoughtful feedback we receive throughout the year.</p>",
-            "link_text": "Learn more",
+            "subheading": "",
+            "title": "NOSSO COMPROMISSO",
+            "content": "<p>Lealdade à tradição e obsessão pelo detalhe. Na Mr. Cavalheiros, não entregamos apenas roupas; entregamos a confiança necessária para dominar o seu império.</p>",
+            "link_text": "",
             "link_url": "",
             "link_style": "link"
           }
@@ -442,7 +431,7 @@
         "title": "From the blog",
         "content": "",
         "button_link": "shopify://blogs/news",
-        "button_text": "Discover all our stories"
+        "button_text": "EXPLORAR TODAS AS HISTORIAS"
       }
     },
     "featured-product": {
@@ -527,8 +516,8 @@
         "enable_video_looping": true,
         "enable_image_zoom": false,
         "max_image_zoom_level": 3,
-        "subheading": "Our selection",
-        "title": "Product of the week",
+        "subheading": "NOSSA SELEÇÃO",
+        "title": "O ESSENCIAL DA SEMANA",
         "content": ""
       }
     },
@@ -538,7 +527,7 @@
         "testimonial-1": {
           "type": "testimonial",
           "settings": {
-            "content": "<p>Sleek and compact, this piece keeps everything organized with just the right balance of structure and softness.</p>",
+            "content": "<p><em>\"A qualidade do Tweed é impressionante. Senti a diferença no corte assim que vesti. Finalmente uma marca que respeita a tradição.\"</em> — <strong>Arthur S.</strong></p>",
             "logo_max_width": 140,
             "logo_mobile_max_width": 100,
             "author": ""
@@ -547,7 +536,7 @@
         "testimonial-2": {
           "type": "testimonial",
           "settings": {
-            "content": "<p>Whether in classic black or a bold tone, it stands out for its smart compartments and refined leather finish.</p>",
+            "content": "<p><em>\"O relógio de bolso superou minhas expectativas. É o peso da história no meu paletó. Atendimento impecável.\"</em> — <strong>Thomas S.</strong></p>",
             "logo_max_width": 140,
             "logo_mobile_max_width": 100,
             "author": ""
@@ -556,7 +545,7 @@
         "testimonial-3": {
           "type": "testimonial",
           "settings": {
-            "content": "<p>Minimalist design meets everyday function — perfect for keeping your essentials secure and stylish on the go.</p>",
+            "content": "<p><em>A Mr. Cavalheiros não entrega apenas roupas, entrega uma nova postura. Indispensável para quem busca autoridade.\"</em> — <strong>John L.</strong></p>",
             "logo_max_width": 140,
             "logo_mobile_max_width": 100,
             "author": ""
@@ -586,49 +575,10 @@
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/conceito-loja.png",
-            "label": "2013",
-            "subheading": "",
-            "title": "A story of shared vision",
-            "content": "<p>This project began with two creative minds, united by both passion and purpose. From day one, the goal was clear: to build something meaningful together. What started as a simple idea turned into a first product launch—and the beginning of a lasting journey.</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "mobile_text_color": "#ffffff"
-          }
-        },
-        "item-2": {
-          "type": "item",
-          "settings": {
-            "label": "2014",
-            "subheading": "",
-            "title": "No middlemen",
-            "content": "<p>By working directly with you, we eliminate unnecessary markups and focus on what matters: offering thoughtfully designed, high-quality pieces at a fair price. A modern approach to fashion, rooted in transparency.</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "mobile_text_color": "#ffffff"
-          }
-        },
-        "item-3": {
-          "type": "item",
-          "settings": {
-            "label": "2015",
-            "subheading": "",
-            "title": "Crafted in Italy",
-            "content": "<p>Production takes place in a family-run workshop near Naples, known for its artisanal expertise. The collaboration is close and ongoing, with daily conversations shaping both the process and the products. More than just a manufacturer—true partners in craft.</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "mobile_text_color": "#ffffff"
-          }
-        },
-        "item-4": {
-          "type": "item",
-          "settings": {
-            "label": "2017",
-            "subheading": "Subheading",
-            "title": "Discover our products",
-            "content": "<p>Located in the heart of the city, our showroom is open throughout the week and offers the ideal place to explore the full range in person.</p>",
+            "label": "2026",
+            "subheading": "2026",
+            "title": "A PRIMEIRA CATEDRAL DE ESTILO",
+            "content": "<p><em>Nascemos em 2023 com um propósito claro: vestir o homem moderno com a armadura da tradição. Três anos depois, inauguramos o nosso primeiro templo físico. Um espaço de elite onde cada cavalheiro pode sentir a textura dos nossos ternos de Tweed, ajustar o peso de um relógio de bolso e, acima de um bom whisky, redefinir o seu próprio legado. Não é apenas uma loja, é o quartel-general da sua nova vida.</em></p><h3></h3>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -637,10 +587,7 @@
         }
       },
       "block_order": [
-        "item-1",
-        "item-2",
-        "item-3",
-        "item-4"
+        "item-1"
       ],
       "settings": {
         "color_scheme": "scheme-1",
@@ -654,10 +601,10 @@
         "color_scheme": "scheme-3",
         "separate_section_with_border": true,
         "image_size": "md",
-        "subheading": "Keep me updated",
-        "title": "Newsletter",
-        "content": "<p>Subscribe to get notified about product launches, special offers and company news.</p>",
-        "button_text": "Subscribe",
+        "subheading": "CONVITE EXCLUSIVO",
+        "title": "FAÇA PARTE DA ORDEM",
+        "content": "<p>Entre para o nosso círculo interno. Receba acesso antecipado a novas coleções e conteúdos sobre o lifestyle de um verdadeiro cavalheiro.</p><p></p>",
+        "button_text": "juntar-se",
         "overlay_color": "#000000",
         "overlay_opacity": 30
       }
