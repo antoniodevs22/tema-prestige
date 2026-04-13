@@ -412,7 +412,7 @@
         "text_alignment": "center",
         "heading_tag": "h3",
         "overlay_color": "#000000",
-        "overlay_opacity": 20
+        "overlay_opacity": 70
       }
     },
     "blog-posts": {
