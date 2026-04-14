@@ -396,25 +396,6 @@
         "overlay_opacity": 70
       }
     },
-    "blog-posts": {
-      "type": "blog-posts",
-      "settings": {
-        "color_scheme": "scheme-1",
-        "separate_section_with_border": true,
-        "blog": "o-manifesto",
-        "posts_count": 3,
-        "stack_on_mobile": false,
-        "show_category": true,
-        "show_date": false,
-        "show_excerpt": false,
-        "show_read_more": true,
-        "subheading": "A Doutrina",
-        "title": "O MANIFESTO",
-        "content": "",
-        "button_link": "shopify://blogs/news",
-        "button_text": "EXPLORAR TODAS AS HISTORIAS"
-      }
-    },
     "featured-product": {
       "type": "featured-product",
       "blocks": {
@@ -500,6 +481,25 @@
         "subheading": "NOSSA SELEÇÃO",
         "title": "O ESSENCIAL DA SEMANA",
         "content": ""
+      }
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": true,
+        "blog": "o-manifesto",
+        "posts_count": 3,
+        "stack_on_mobile": false,
+        "show_category": true,
+        "show_date": false,
+        "show_excerpt": false,
+        "show_read_more": true,
+        "subheading": "A Doutrina",
+        "title": "O MANIFESTO",
+        "content": "",
+        "button_link": "shopify://blogs/news",
+        "button_text": "EXPLORAR TODAS AS HISTORIAS"
       }
     },
     "testimonials": {
@@ -602,10 +602,10 @@
     "video",
     "shop-the-look",
     "images-with-text-scroll",
-    "blog-posts",
     "featured-product",
     "testimonials",
     "timeline",
+    "blog-posts",
     "newsletter"
   ]
 }
