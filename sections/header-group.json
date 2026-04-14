@@ -40,9 +40,33 @@
         "show_locale_selector": false,
         "transparent_header_text_color": "#ffffff"
       }
+    },
+    "announcement_bar_WcHrM3": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message_JzAnwD": {
+          "type": "message",
+          "settings": {
+            "text": "Pela ordem dos Cavalheiros: Elegância é a nossa armadura."
+          }
+        }
+      },
+      "block_order": [
+        "message_JzAnwD"
+      ],
+      "name": "t:sections.announcement_bar.name",
+      "settings": {
+        "color_scheme": "",
+        "enable_sticky": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "desktop_font_size": 11,
+        "mobile_font_size": 10
+      }
     }
   },
   "order": [
-    "header"
+    "header",
+    "announcement_bar_WcHrM3"
   ]
 }
