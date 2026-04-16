@@ -160,6 +160,15 @@ button[type="submit"]:hover,
 
 .footer a, .footer p, .footer span, .footer li {
   color: #DDDDDD !important;
+  transition: color 0.3s ease-in-out !important;
+}
+
+.footer a:hover {
+  color: #D4AF37 !important;
+}
+
+.footer__aside .heading {
+  color: #FFFFFF !important;
 }
 
 /* 5. NEWSLETTER (Convite Exclusivo) */
