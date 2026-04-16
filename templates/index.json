@@ -483,25 +483,6 @@
         "content": ""
       }
     },
-    "blog-posts": {
-      "type": "blog-posts",
-      "settings": {
-        "color_scheme": "scheme-1",
-        "separate_section_with_border": true,
-        "blog": "o-manifesto",
-        "posts_count": 3,
-        "stack_on_mobile": false,
-        "show_category": true,
-        "show_date": false,
-        "show_excerpt": false,
-        "show_read_more": true,
-        "subheading": "A Doutrina",
-        "title": "O MANIFESTO",
-        "content": "",
-        "button_link": "shopify://blogs/news",
-        "button_text": "EXPLORAR TODAS AS HISTORIAS"
-      }
-    },
     "testimonials": {
       "type": "testimonials",
       "blocks": {
@@ -574,6 +555,25 @@
         "color_scheme": "scheme-1",
         "item_color_scheme": "scheme-2",
         "separate_section_with_border": false
+      }
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": true,
+        "blog": "o-manifesto",
+        "posts_count": 3,
+        "stack_on_mobile": false,
+        "show_category": true,
+        "show_date": false,
+        "show_excerpt": false,
+        "show_read_more": true,
+        "subheading": "A Doutrina",
+        "title": "O MANIFESTO",
+        "content": "",
+        "button_link": "shopify://blogs/o-manifesto",
+        "button_text": "EXPLORAR TODAS AS HISTORIAS"
       }
     },
     "newsletter": {
