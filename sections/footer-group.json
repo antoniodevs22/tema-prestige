@@ -76,8 +76,8 @@
         "text_Q9DMak": {
           "type": "text",
           "settings": {
-            "title": "About our store",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
+            "title": "<strong>A ORDEM</strong>",
+            "content": "<p>Mr. Cavalheiros: Mais que uma curadoria de estilo, somos o ponto de encontro para homens que dominam o seu tempo e o seu legado.</p>",
             "enable_follow_on_shop": true
           }
         },
