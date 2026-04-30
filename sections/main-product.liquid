@@ -110,6 +110,15 @@
                     {%- else -%}
                       <div class="product-content-below-gallery__description prose">
                         {{- product.description -}}
+
+                        {%- if product.metafields.custom.tabela_de_medidas != blank -%}
+                          <div class="ProductMeta__SizeChart" style="margin-top: 25px; padding-top: 20px; border-top: 1px solid var(--border-color);">
+                            <p class="Heading u-h6" style="margin-bottom: 15px; letter-spacing: 0.2em;">GUIA DE TAMANHOS</p>
+                            <div class="Rte" data-size-chart>
+                              {{ product.metafields.custom.tabela_de_medidas.value }}
+                            </div>
+                          </div>
+                        {%- endif -%}
                       </div>
                     {%- endif -%}
                   {%- endif -%}
@@ -203,6 +212,16 @@
   } catch (e) {
     // Safari in private mode does not allow setting item, we silently fail
   }
+</script>
+
+<script>
+  (function() {
+    document.querySelectorAll('[data-size-chart]').forEach(function(chart) {
+      if (chart && chart.textContent.includes('<table')) {
+        chart.innerHTML = chart.textContent;
+      }
+    });
+  })();
 </script>
 
 {% schema %}
