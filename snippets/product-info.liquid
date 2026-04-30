@@ -210,14 +210,25 @@
                 <div class="prose">
                   {{- product_description -}}
 
-                  {%- if product.metafields.custom.tabela_de_medidas != blank -%}
-                    <div class="ProductMeta__SizeChart" style="margin-top: 25px; padding-top: 20px; border-top: 1px solid var(--border-color);">
-                      <p class="Heading u-h6" style="margin-bottom: 15px; letter-spacing: 0.2em;">GUIA DE TAMANHOS</p>
-                      <div class="Rte" data-size-chart>
-                        {{ product.metafields.custom.tabela_de_medidas.value }}
+                    {%- if product.metafields.custom.tabela_de_medidas != blank -%}
+                      <div class="ProductMeta__SizeChart-Wrapper" style="margin-top: 20px; margin-bottom: 20px;">
+                        <details class="SizeChart__Accordion" style="border: 1px solid #e1e3e4; border-radius: 4px; overflow: hidden;">
+                          <summary style="padding: 12px 15px; background: #1c1c1c; color: #ffffff; cursor: pointer; list-style: none; display: flex; align-items: center; justify-content: space-between; font-size: 11px; letter-spacing: 0.2em; font-weight: bold; text-transform: uppercase;">
+                            <span>📏 VER MEDIDAS</span>
+                            <span class="Accordion__Icon">+</span>
+                          </summary>
+                          <div class="SizeChart__Content" data-size-chart style="padding: 15px; background: #ffffff;">
+                            {{ product.metafields.custom.tabela_de_medidas.value }}
+                          </div>
+                        </details>
                       </div>
-                    </div>
-                  {%- endif -%}
+                      
+                      <style>
+                        .SizeChart__Accordion[open] .Accordion__Icon { transform: rotate(45deg); }
+                        .SizeChart__Accordion summary::-webkit-details-marker { display: none; }
+                        .SizeChart__Accordion summary:hover { background: #333333 !important; transition: 0.3s; }
+                      </style>
+                    {%- endif -%}
                 </div>
               {%- endif -%}
             {%- endif -%}
