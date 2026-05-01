@@ -205,6 +205,16 @@
   }
 </script>
 
+<script>
+  (function() {
+    document.querySelectorAll('[data-size-chart]').forEach(function(chart) {
+      if (chart && chart.textContent.includes('<table')) {
+        chart.innerHTML = chart.textContent;
+      }
+    });
+  })();
+</script>
+
 {% schema %}
 {
   "name": "t:sections.main_product.name",
