@@ -93,6 +93,8 @@
             {%- assign atc_button_style = 'solid' -%}
           {%- endif -%}
 
+          {%- assign button_content = 'ADICIONAR AO CARRINHO' -%}
+
           {%- render 'button',
             content: button_content,
             type: 'submit',
@@ -107,6 +109,23 @@
             {{- form | payment_button -}}
 
             <style>
+              .shopify-payment-button__button--unbranded {
+                font-size: 0 !important;
+                text-transform: uppercase !important;
+                display: flex !important;
+                align-items: center !important;
+                justify-content: center !important;
+              }
+
+              .shopify-payment-button__button--unbranded::before {
+                content: "COMPRAR AGORA" !important;
+                font-size: 13px !important;
+                visibility: visible !important;
+                letter-spacing: 0.15em !important;
+                font-weight: 600 !important;
+                font-family: var(--font-body-family) !important;
+              }
+
               #{{ form_id }} .shopify-payment-button {
                 {%- if payment_button_background != blank and payment_button_background != 'rgba(0,0,0,0)' -%}
                   --button-background: {{ payment_button_background.rgb }};

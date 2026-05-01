@@ -97,6 +97,7 @@
       "pre_order_button": "Pré-venda",
       "sold_out_button": "Esgotado",
       "unavailable_button": "Unavailable",
+      "buy_it_now": "COMPRAR AGORA",
       "choose_options": "Escolher opções",
       "added_to_cart": "Adicionado ao carrinho!",
       "added_to_cart_with_title": "{{ product_title }} foi adicionado ao carrinho.",
