@@ -232,11 +232,11 @@
   },
   "contact": {
     "form": {
-      "name": "Name",
+      "name": "Nome",
       "email": "E-mail",
-      "message": "Message",
-      "submit": "Send message",
-      "success_message": "Your message has been sent."
+      "message": "Mensagem",
+      "submit": "Enviar mensagem",
+      "success_message": "Sua mensagem foi enviada."
     }
   },
   "customer": {
