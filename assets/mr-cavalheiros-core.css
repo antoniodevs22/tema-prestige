@@ -233,3 +233,66 @@ button[type="submit"]:hover,
     font-size: 1.1rem !important;
   }
 }
+
+/* 8. TRUST BADGES & PAYMENT METHODS (PRODUCT PAGE) */
+.product-info__payment-methods {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.product-info__payment-methods .payment-methods {
+  display: flex;
+  justify-content: center; /* Centralizado conforme última solicitação */
+  gap: 10px;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.product-info__payment-methods .payment-methods li {
+  height: 28px;
+  display: flex;
+  align-items: center;
+}
+
+.product-info__payment-methods .payment-methods li svg {
+  height: 100%;
+  width: auto;
+  display: block;
+}
+
+.trust-benefits-list {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.trust-benefit-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05); /* Linha fina e clara */
+}
+
+.trust-benefit-item:last-child {
+  border-bottom: none;
+}
+
+.trust-benefit-item span {
+  font-family: var(--font-body-family);
+  font-size: 12px; /* Conforme solicitado */
+  color: #1a1a1a;
+  line-height: 1.2;
+}
+
+.trust-benefit-item svg {
+  width: 18px;
+  height: 18px;
+  color: #1a1a1a; /* Preto/Cinza muito escuro */
+  flex-shrink: 0;
+}
