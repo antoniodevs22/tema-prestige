@@ -101,7 +101,7 @@
           "type": "text",
           "settings": {
             "title": "SAC - SERVIÇO DE ATENDIMENTO AO CLIENTE",
-            "content": "<p><strong>Email: </strong>contato@mrcavalheiros.com</p><p><strong>WhatsApp:</strong> ‪+55 11 99999‑9999<br/><strong>Horário: </strong>Segunda a Sexta. 11hrs ás 18hrs<br/></p><p><strong>Endereço: </strong>Avenida Juscelino Kubistchek, 2000,São Paulo/SP - CEP: 20260-541</p>",
+            "content": "<p><strong>Email: </strong>contato@mrcavalheiros.com</p><p><strong>WhatsApp:</strong> ‪+55 11 99999‑9999<br/><strong>Horário: </strong>Segunda a Sexta. 11hrs ás 18hrs</p><p><strong>Endereço: </strong>Avenida Juscelino Kubistchek, 2000,São Paulo/SP - CEP: 20260-541</p>",
             "enable_follow_on_shop": true
           }
         }
