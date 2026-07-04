@@ -283,43 +283,6 @@
         "hide_collection_title": false
       }
     },
-    "video": {
-      "type": "video",
-      "blocks": {
-        "subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h2"
-          }
-        },
-        "play-1": {
-          "type": "play",
-          "settings": {
-            "icon_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "subheading-1",
-        "heading-1",
-        "play-1"
-      ],
-      "settings": {
-        "autoplay": false,
-        "show_controls": true,
-        "video_size": "md",
-        "video": "shopify://files/videos/Área de Membros.mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#1c1c1c"
-      }
-    },
     "shop-the-look": {
       "type": "shop-the-look",
       "blocks": {
@@ -600,7 +563,6 @@
     "scrolling-content-1",
     "scrolling-content-2",
     "featured-collections-2",
-    "video",
     "shop-the-look",
     "images-with-text-scroll",
     "featured-product",
