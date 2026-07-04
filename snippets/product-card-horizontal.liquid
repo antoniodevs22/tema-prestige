@@ -16,10 +16,11 @@
 <div class="horizontal-product-card">
   {%- if product.featured_media -%}
     <a href="{{ product.url }}" class="horizontal-product-card__figure" data-instant>
+      {%- assign card_horizontal_alt = product.featured_media.alt | default: product.title | escape -%}
       {{-
         product.featured_media
         | image_url: width: product.featured_media.width
-        | image_tag: loading: 'lazy', sizes: '100px', widths: '100,150,200,250,300', class: 'horizontal-product-card__image'
+        | image_tag: loading: 'lazy', sizes: '100px', widths: '100,150,200,250,300', class: 'horizontal-product-card__image', alt: card_horizontal_alt
       -}}
     </a>
   {%- endif -%}

@@ -51,8 +51,8 @@
                       height="{{ block.settings.mobile_image.height }}"
                   >
                 {%- endif -%}
-
-                {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: loading_strategy, fetchpriority: fetch_priority, sizes: '100vw', widths: '800,1200,1800,2400,2800,3200' -}}
+                {%- assign slideshow_alt = block.settings.image.alt | default: block.settings.title | default: shop.name | escape -%}
+                {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: loading_strategy, fetchpriority: fetch_priority, sizes: '100vw', widths: '800,1200,1800,2400,2800,3200', alt: slideshow_alt -}}
               </picture>
             {%- else -%}
               {%- capture placeholder_image -%}{% cycle 'placeholder': 'lifestyle-1', 'lifestyle-2' %}{%- endcapture -%}

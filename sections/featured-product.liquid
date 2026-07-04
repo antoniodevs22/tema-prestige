@@ -45,6 +45,12 @@
   </div>
 </div>
 
+{%- if section.settings.product != blank -%}
+  <script type="application/ld+json">
+    {{- section.settings.product | structured_data -}}
+  </script>
+{%- endif -%}
+
 {% schema %}
 {
   "name": "t:sections.featured_product.name",
