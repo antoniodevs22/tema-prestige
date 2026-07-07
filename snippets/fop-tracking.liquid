@@ -1,0 +1,116 @@
+<!-- FOP TRACKING: CLIENT-SIDE (Browser) -->
+<script>
+(function() {
+  var PIXEL_ID = '1656932695516078';
+  var CAPI_ENDPOINT = 'https://dglmbhnzfhovbexktbzz.supabase.co/functions/v1/capi';
+  var TEST_EVENT_CODE = 'TEST64862';
+
+  // Utilitário para UUIDv4
+  function uuidv4() {
+    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+      var r = Math.random() * 16 | 0, v = c === 'x' ? r : (r & 0x3 | 0x8);
+      return v.toString(16);
+    });
+  }
+
+  // Identificação do Visitante (Visitor ID) persistente
+  var visitorId = window.localStorage.getItem('_fop_vid');
+  if (!visitorId) {
+    visitorId = uuidv4();
+    window.localStorage.setItem('_fop_vid', visitorId);
+  }
+
+  // Utilitários de cookies para ler fbp e fbc
+  function getCookie(name) {
+    var match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+    if (match) return match[2];
+    return null;
+  }
+
+  // Função central para disparar eventos hibridos (Pixel + CAPI)
+  function trackEvent(eventName, eventData) {
+    var eventId = uuidv4();
+    var fbp = getCookie('_fbp') || '';
+    var fbc = getCookie('_fbc') || '';
+    
+    // Dispara CAPI
+    var capiPayload = {
+      event_id: eventId,
+      event_name: eventName,
+      event_source_url: window.location.href,
+      fbp: fbp,
+      fbc: fbc,
+      external_id: visitorId,
+      test_event_code: TEST_EVENT_CODE
+    };
+    
+    // Mescla dados específicos do evento (value, currency, content_ids, etc)
+    if (eventData) {
+      Object.assign(capiPayload, eventData);
+    }
+    
+    fetch(CAPI_ENDPOINT, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(capiPayload),
+      keepalive: true
+    }).catch(function(e){ console.error('CAPI Error:', e); });
+
+    // Dispara Meta Pixel
+    if (window.fbq) {
+      fbq('track', eventName, eventData || {}, { eventID: eventId });
+    }
+  }
+
+  // Inicializa o Pixel do Meta
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  
+  fbq('init', PIXEL_ID, { external_id: visitorId });
+  
+  // PageView
+  trackEvent('PageView');
+
+  // Interceptador global do fetch para AddToCart AJAX (Temas Shopify 2.0 geralmente usam fetch)
+  var originalFetch = window.fetch;
+  window.fetch = function() {
+    return originalFetch.apply(this, arguments).then(function(res) {
+      var url = arguments[0];
+      if (url && typeof url === 'string' && url.indexOf('/cart/add') !== -1) {
+        // Disparado AddToCart após confirmar que a requisição de adicionar ao carrinho foi chamada
+        trackEvent('AddToCart', {
+          content_type: 'product',
+          content_name: 'Produto Adicionado'
+        });
+      }
+      return res;
+    }.bind(this));
+  };
+
+  // ViewContent (Se for página de produto)
+  {% if request.page_type == 'product' %}
+    trackEvent('ViewContent', {
+      content_ids: ['{{ product.id }}'],
+      content_name: '{{ product.title | escape }}',
+      content_type: 'product',
+      value: {{ product.price | divided_by: 100.0 }},
+      currency: '{{ cart.currency.iso_code }}'
+    });
+  {% endif %}
+
+  // InitiateCheckout (Links ou formulários indo para /checkout)
+  document.addEventListener('click', function(e) {
+    var target = e.target.closest('a[href^="/checkout"], button[name="checkout"], form[action="/cart"] button[type="submit"]');
+    if (target) {
+      trackEvent('InitiateCheckout');
+    }
+  });
+
+})();
+</script>

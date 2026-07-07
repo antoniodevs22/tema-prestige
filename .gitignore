@@ -1,0 +1,13 @@
+.env
+
+# Configuração local do MCP
+.mcp.json
+
+# Pasta de tracking (fop-tracking)
+fop-tracking/
+
+# Pasta de documentação da IA (docs-ai)
+docs-ai/
+
+# Diário de Bordo
+NOTES.md
