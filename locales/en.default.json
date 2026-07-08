@@ -774,8 +774,20 @@
             "january": "Janeiro",
             "february": "Fevereiro",
             "march": "Março",
-            "april": "Abril"
+            "april": "Abril",
+            "may": "Maio",
+            "june": "Junho",
+            "july": "Julho",
+            "august": "Agosto",
+            "september": "Setembro",
+            "october": "Outubro",
+            "november": "Novembro",
+            "december": "Dezembro"
           }
+        },
+        "datepicker": {
+          "show_previous_month": "Mostrar mês anterior, {{month}} {{year}}",
+          "show_next_month": "Mostrar próximo mês, {{month}} {{year}}"
         }
       }
     },
