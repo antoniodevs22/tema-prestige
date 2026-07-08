@@ -701,7 +701,19 @@
           "tip": {
             "not_accepted_by_shop": "A loja não aceita gorjetas.",
             "only_one_tip_line_allowed": "Várias linhas de gorjeta não são permitidas.",
-            "tips_not_allowed_for_b2b": "Gorjetas não são permitidas em lojas B2B."
+            "tips_not_allowed_for_b2b": "Gorjetas não são permitidas em lojas B2B.",
+            "currency_change_reset": "A gorjeta foi redefinida devido à alteração da moeda.",
+            "tips_not_allowed_for_deferred_purchase_options": "Gorjetas ainda não são aceitas para opções de compra diferida."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Este rascunho de pedido não existe na loja atual.",
+            "staff_member_not_exist": "Este membro da equipe não existe na loja atual.",
+            "location_not_exist": "Este local não existe na loja atual.",
+            "point_of_sale_device_not_exist": "Este dispositivo de ponto de venda não existe na loja atual.",
+            "unresolvable_target_merchandise_lines": "As atribuições de venda propostas não podem ser resolvidas devido ao contexto atual de negociação."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "A proposta do seu comprador deve conter termos não negociáveis (non-negotiable_terms)."
           }
         }
       }
