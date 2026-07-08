@@ -787,7 +787,20 @@
         },
         "datepicker": {
           "show_previous_month": "Mostrar mês anterior, {{month}} {{year}}",
-          "show_next_month": "Mostrar próximo mês, {{month}} {{year}}"
+          "show_next_month": "Mostrar próximo mês, {{month}} {{year}}",
+          "range_start": "Início do intervalo",
+          "in_range": "No intervalo",
+          "range_end": "Fim do intervalo"
+        },
+        "list_formatter": {
+          "and": {
+            "lastWordConnector": "{{previousWords}} e {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} e {{secondWord}}"
+          },
+          "or": {
+            "lastWordConnector": "{{previousWords}} ou {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} ou {{secondWord}}"
+          }
         }
       }
     },
