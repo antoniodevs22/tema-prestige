@@ -530,7 +530,8 @@
         "continue_to_review": "Revisar Pedido",
         "back_to_payment_method": "Retornar ao Pagamento",
         "back_to_contact_information": "Retornar às Informações",
-        "back_to_shipping_method": "Retornar ao Envio"
+        "back_to_shipping_method": "Retornar ao Envio",
+        "choose_shipping_method": "Escolha um método de envio"
       }
     }
   }
