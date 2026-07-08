@@ -517,7 +517,8 @@
         "complete_purchase_button_label": "Complete seu Pedido",
         "pay_now_button_label": "Pagar Agora",
         "finalize_order_accessibility_label": "Finalizar Pedido",
-        "authenticate_purchase_button_label": "Autenticar Pagamento"
+        "authenticate_purchase_button_label": "Autenticar Pagamento",
+        "edit_link_label": "Editar"
       }
     }
   }
