@@ -542,7 +542,8 @@
         "autocomplete_title": "Sugestões",
         "autocomplete_multi_item": "{{number}} itens disponíveis",
         "autocomplete_selection": "{{number}} de {{total}}",
-        "autocomplete_close": "Fechar Sugestões"
+        "autocomplete_close": "Fechar Sugestões",
+        "tooltip_accessibility_label": "Mais Informações"
       }
     },
     "sentence": {
