@@ -727,6 +727,19 @@
           "attribution": {
             "retail_attribution_not_allowed": "A atribuição de varejo não é permitida para este checkout.",
             "retail_attribution_required": "A atribuição de varejo é obrigatória para este checkout."
+          },
+          "captcha": {
+            "metadata_missing": "É necessário preencher um captcha para este checkout.",
+            "metadata_mismatch": "O provedor e o tipo de captcha fornecidos não correspondem aos valores esperados.",
+            "token_missing": "Um token de captcha deve ser fornecido para concluir este checkout.",
+            "job_enqueue_failed": "A tarefa de validação do captcha falhou ao entrar na fila.",
+            "job_already_queued": "A validação do captcha já foi colocada na fila para este token de captcha.",
+            "token_expired": "O token de captcha fornecido expirou. Complete um novo captcha para continuar o checkout.",
+            "token_invalid": "O token de captcha fornecido era inválido. Complete um novo captcha para continuar o checkout.",
+            "token_not_valid_for_session": "O captcha fornecido não pode ser usado com este checkout."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "O valor recebido deve ser na moeda da loja."
           }
         }
       }
