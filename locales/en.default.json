@@ -877,7 +877,17 @@
         "region_placeholder": "Região",
         "region_none": "Nenhuma selecionada",
         "prefecture_label": "Província/Distrito",
-        "prefecture_placeholder": "Província/Distrito"
+        "prefecture_placeholder": "Província/Distrito",
+        "governorate_label": "Província/Estado",
+        "governorate_placeholder": "Província/Estado",
+        "emirate_label": "Emirado",
+        "emirate_placeholder": "Emirado",
+        "state_and_territory_label": "Estado/Território",
+        "state_and_territory_placeholder": "Estado/Território",
+        "phone_label": "Telefone",
+        "phone_rollup_accessibility_label": "Opções de telefone",
+        "phone_country_code_label": "Código de país do telefone",
+        "optional_phone_label": "Telefone (opcional)"
       }
     },
     "sentence": {
