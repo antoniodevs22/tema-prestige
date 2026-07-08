@@ -641,6 +641,12 @@
             "out_of_stock_at_origin_location": "Não há estoque no local de origem.",
             "invalid_signature": "Assinatura de desconto inválida.",
             "mixed_destination_countries": "A entrega não está disponível porque as linhas de entrega abrangem vários países."
+          },
+          "discount": {
+            "discounts_not_allowed_for_b2b": "Descontos não são permitidos em lojas B2B.",
+            "mixed_destination_countries": "Os descontos não estão disponíveis porque as linhas de entrega abrangem vários países.",
+            "custom_discount_not_honoured": "O desconto personalizado fornecido não foi aceito.",
+            "unsupported_expectation": "A linha de desconto fornecida continha uma condição que a política não pôde interpretar."
           }
         }
       }
