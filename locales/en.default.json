@@ -680,7 +680,14 @@
             "credit_card_update_failed": "Falha ao atualizar o cartão de crédito.",
             "invalid_address_type": "O tipo de endereço fornecido é inválido para este método de pagamento.",
             "missing_retail_attributions": "As atribuições de varejo são obrigatórias para pagamentos com cartão de crédito inseridos manualmente.",
-            "unexpected_retail_attributions": "Atribuições de varejo foram fornecidas inesperadamente para pagamento com cartão de crédito."
+            "unexpected_retail_attributions": "Atribuições de varejo foram fornecidas inesperadamente para pagamento com cartão de crédito.",
+            "invalid_card_source": "Esta sessão não tem permissão para usar esta origem de cartão.",
+            "wallet_content_missing": "O conteúdo da carteira digital está ausente.",
+            "payment_instrument_not_found": "Não foi possível encontrar o método de pagamento.",
+            "unauthorized_capture_method": "Configurar o método de captura de pagamento não é permitido.",
+            "saved_payment_methods_not_allowed": "Métodos de pagamento salvos não são permitidos.",
+            "saved_payment_methods_not_enabled": "Métodos de pagamento salvos não estão ativados para esta loja.",
+            "saved_payment_methods_cvv_verification_disabled": "O método de pagamento selecionado exige verificação de CVV, que não está ativada para esta loja. Selecione um método de pagamento diferente."
           }
         }
       }
