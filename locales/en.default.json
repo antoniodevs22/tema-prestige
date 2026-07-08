@@ -552,7 +552,9 @@
         "continue_to_payment_plans_button_label": "Prosseguir para os planos de pagamento",
         "back_button_label": "Retornar",
         "choose_delivery_strategy": "Escolha um método de entrega",
-        "autocomplete_zero_item": "Nenhum item disponível"
+        "autocomplete_zero_item": "Nenhum item disponível",
+        "submit": "Enviar",
+        "processing": "Processamento..."
       }
     },
     "sentence": {
