@@ -668,6 +668,19 @@
             "allocated_required": "Falta o campo 'allocated'.",
             "value_required": "Falta o campo 'value'.",
             "line_splits_not_supported": "O campo 'merchandise lines' deve ser dividido de forma que cada uma tenha um único componente de linha na proposta do vendedor."
+          },
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "Pagamentos manuais não são permitidos em lojas B2B.",
+            "positive_amount_expected": "O valor a pagar deve ser maior que 0.",
+            "total_amount_mismatch": "O total a pagar não corresponde à soma do valor dos pagamentos.",
+            "subscription_terms_not_accepted": "Os termos da assinatura não foram aceitos.",
+            "missing_session_id": "Faltam as informações da sessão do cartão de crédito.",
+            "gateway_not_supported": "O gateway de pagamento não suporta o armazenamento do método de pagamento.",
+            "credit_card_last_name_required": "O campo 'last name' não pode estar vazio.",
+            "credit_card_update_failed": "Falha ao atualizar o cartão de crédito.",
+            "invalid_address_type": "O tipo de endereço fornecido é inválido para este método de pagamento.",
+            "missing_retail_attributions": "As atribuições de varejo são obrigatórias para pagamentos com cartão de crédito inseridos manualmente.",
+            "unexpected_retail_attributions": "Atribuições de varejo foram fornecidas inesperadamente para pagamento com cartão de crédito."
           }
         }
       }
