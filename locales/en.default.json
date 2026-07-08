@@ -565,7 +565,8 @@
         },
         "errors": {
           "only_empty_terms_accepted": "Esta política aceita apenas termos vazios.",
-          "session_identifier_not_unique_error": "Algo deu errado com o seu pedido; tente finalizar a compra novamente."
+          "session_identifier_not_unique_error": "Algo deu errado com o seu pedido; tente finalizar a compra novamente.",
+          "line_item_limit_reached": "O número máximo de itens de linha foi atingido."
         }
       }
     },
