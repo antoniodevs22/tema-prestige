@@ -931,7 +931,18 @@
         "pick_up_next_day": "Pronto para retirada no próximo dia",
         "pickup_point_method_definition": "Enviar para um ponto de retirada",
         "retail_method_definition": "Envio de varejo",
-        "company_location_no_address_banner": "Pedidos enviados para locais sem endereço serão enviados para análise."
+        "company_location_no_address_banner": "Pedidos enviados para locais sem endereço serão enviados para análise.",
+        "none_method_definition": "Sem frete",
+        "digital_product": "Produto digital",
+        "subscription_pickup_information": "Este será o local de retirada para todos os pedidos futuros da sua assinatura."
+      },
+      "customer_account": {
+        "not_user_label": "Não é {{ first_name }}?",
+        "have_an_account_label": "Já tem uma conta?",
+        "sign_in_link_label": "Iniciar sessão",
+        "sign_out_link_label": "Sair da conta",
+        "save_my_information_label": "Salvar minhas informações para a próxima vez",
+        "invalid_address": "O endereço selecionado é inválido. {{ update_address_link }} ou selecione um endereço diferente."
       }
     },
     "sentence": {
