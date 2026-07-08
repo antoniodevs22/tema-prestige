@@ -515,7 +515,8 @@
     "checkout": {
       "general": {
         "complete_purchase_button_label": "Complete seu Pedido",
-        "pay_now_button_label": "Pagar Agora"
+        "pay_now_button_label": "Pagar Agora",
+        "finalize_order_accessibility_label": "Finalizar Pedido"
       }
     }
   }
