@@ -687,7 +687,10 @@
             "unauthorized_capture_method": "Configurar o método de captura de pagamento não é permitido.",
             "saved_payment_methods_not_allowed": "Métodos de pagamento salvos não são permitidos.",
             "saved_payment_methods_not_enabled": "Métodos de pagamento salvos não estão ativados para esta loja.",
-            "saved_payment_methods_cvv_verification_disabled": "O método de pagamento selecionado exige verificação de CVV, que não está ativada para esta loja. Selecione um método de pagamento diferente."
+            "saved_payment_methods_cvv_verification_disabled": "O método de pagamento selecionado exige verificação de CVV, que não está ativada para esta loja. Selecione um método de pagamento diferente.",
+            "store_credit_not_enabled": "O crédito da loja não está ativado para esta loja.",
+            "store_credit_account_not_found": "Conta de crédito da loja não encontrada.",
+            "store_credit_account_mismatch": "A conta de crédito da loja não corresponde à identidade do comprador."
           }
         }
       }
