@@ -904,7 +904,15 @@
         "pincode_placeholder": "Código PIN / CEP",
         "civic_number_warning": "Adicione o número da casa/prédio, se houver",
         "optional_last_name_label": "Sobrenome (opcional)",
-        "different_shipping_address_label": "Enviar para um endereço diferente"
+        "different_shipping_address_label": "Enviar para um endereço diferente",
+        "different_shipping_address_text": "Usar um endereço avulso para este pedido",
+        "change_company_location_link_label": "Alterar local da empresa",
+        "change_location_link_label": "Alterar local",
+        "ship_to_company": "Enviar para {{companyName}}"
+      },
+      "delivery_options": {
+        "free_total_label": "Gratuito",
+        "ship": "Enviar"
       }
     },
     "sentence": {
