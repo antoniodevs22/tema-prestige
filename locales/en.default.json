@@ -807,6 +807,14 @@
             "one": "Agrupamento de {{number}} marcador",
             "other": "Agrupamento de {{number}} marcadores"
           }
+        },
+        "sheet": {
+          "expand": "Expandir"
+        },
+        "dropzone": {
+          "add_file": "Adicionar arquivo",
+          "invalid_file_type": "Tipo de arquivo não suportado",
+          "dragged_over": "Solte o arquivo para enviar"
         }
       }
     },
