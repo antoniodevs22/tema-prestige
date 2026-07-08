@@ -539,7 +539,9 @@
         "error_page_title": "Erro",
         "skip_to_content": "Pular para o conteúdo",
         "breadcrumb": "Trilha de navegação",
-        "autocomplete_title": "Sugestões"
+        "autocomplete_title": "Sugestões",
+        "autocomplete_multi_item": "{{number}} itens disponíveis",
+        "autocomplete_selection": "{{number}} de {{total}}"
       }
     },
     "sentence": {
