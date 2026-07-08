@@ -646,7 +646,18 @@
             "discounts_not_allowed_for_b2b": "Descontos não são permitidos em lojas B2B.",
             "mixed_destination_countries": "Os descontos não estão disponíveis porque as linhas de entrega abrangem vários países.",
             "custom_discount_not_honoured": "O desconto personalizado fornecido não foi aceito.",
-            "unsupported_expectation": "A linha de desconto fornecida continha uma condição que a política não pôde interpretar."
+            "unsupported_expectation": "A linha de desconto fornecida continha uma condição que a política não pôde interpretar.",
+            "additional_requested_discount_code_discarded": "{{code}} é válido, mas não aplicável. Verifique os termos do desconto.",
+            "additional_requested_discount_discarded": "Seu desconto é válido, mas não aplicável. Verifique os termos do desconto.",
+            "allocations_mismatch": "Seu código de desconto mudou. Revise seu carrinho e tente novamente.",
+            "discount_code_not_honoured": "{{ discount_rejection_message }}",
+            "discount_title_too_long": "O título do desconto não pode ter mais de 255 caracteres."
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "Os impostos associados ao seu pedido mudaram. Revise e tente novamente.",
+            "unresolvable_tax_terms": "Os termos propostos não podem ser resolvidos devido ao contexto atual de negociação.",
+            "delivery_price_is_abstract": "O preço de entrega relacionado é abstrato.",
+            "tax_inclusivity_mismatch": "Renegocie com um valor concreto de totalTaxAndDutyAmount ou totalAmountIncludedInTarget."
           }
         }
       }
