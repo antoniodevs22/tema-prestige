@@ -625,7 +625,17 @@
             "options_instructions_invalid": "As instruções especificadas não correspondem ao padrão esperado.",
             "destination_address_required": "Um endereço de destino é obrigatório para continuar.",
             "pickup_points_unavailable": "Os pontos de retirada estão indisponíveis no momento.",
-            "local_pickup_delivery_line_detail_changed": "A estratégia atual de entrega por retirada local deve ser alterada para continuar."
+            "local_pickup_delivery_line_detail_changed": "A estratégia atual de entrega por retirada local deve ser alterada para continuar.",
+            "selected_pickup_option_no_longer_available": "A opção de retirada selecionada anteriormente não está mais disponível.",
+            "local_pickup_no_delivery_strategy_available": "Nenhuma estratégia de entrega por retirada local disponível foi encontrada.",
+            "origin_location_id_required": "Um ID de local de origem é obrigatório quando o método de entrega VAREJO é solicitado.",
+            "invalid_origin_location_id": "Não foi possível encontrar um local correspondente ao ID do local de origem.",
+            "origin_location_id_not_allowed": "Os métodos de entrega solicitados não suportam um ID de local de origem.",
+            "auto_fulfill_not_allowed": "Esta sessão não está autorizada a substituir o comportamento de atendimento automático.",
+            "auto_fulfill_required": "O atendimento automático é obrigatório quando o método de entrega VAREJO é solicitado.",
+            "prefetch_shipping_rates_used": "As tarifas de envio pré-buscadas nunca devem retornar tarifas.",
+            "fulfillment_constraints_not_satisfied": "Uma ou mais restrições de atendimento não foram atendidas.",
+            "must_fulfill_from_constraint_not_satisfied": "As restrições de atendimento não foram atendidas porque os itens não podem ser processados a partir dos locais obrigatórios."
           }
         }
       }
