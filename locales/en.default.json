@@ -564,7 +564,8 @@
           "external_and_new_window": "Abre um site externo em uma nova janela."
         },
         "errors": {
-          "only_empty_terms_accepted": "Esta política aceita apenas termos vazios."
+          "only_empty_terms_accepted": "Esta política aceita apenas termos vazios.",
+          "session_identifier_not_unique_error": "Algo deu errado com o seu pedido; tente finalizar a compra novamente."
         }
       }
     },
