@@ -557,7 +557,12 @@
         "processing": "Processamento...",
         "remove_chip": "Remover  item",
         "remove_item": "Remover {{ label }}",
-        "remove_tag": "Remover Etiqueta"
+        "remove_tag": "Remover Etiqueta",
+        "forwarding_indicator": {
+          "new_window": "Abre em uma nova janela",
+          "external": "Abre um site externo",
+          "external_and_new_window": "Abre um site externo em uma nova janela."
+        }
       }
     },
     "sentence": {
