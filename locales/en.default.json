@@ -571,7 +571,8 @@
           "merchandise": {
             "only_value_constraint": "Apenas valores exatos são permitidos na entrada de mercadorias.",
             "merchandise_variant_not_found": "Variante do produto não encontrada",
-            "merchandise_not_found": "Produto não encontrado."
+            "merchandise_not_found": "Produto não encontrado.",
+            "merchandise_not_applicable": "A variante do produto não pode ser comprada."
           }
         }
       }
