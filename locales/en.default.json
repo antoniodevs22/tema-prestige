@@ -755,7 +755,18 @@
           "weekdays": {
             "monday": "Segunda-feira",
             "tuesday": "Terça-feira",
-            "thursday": "Quarta-feira"
+            "thursday": "Quinta-feira",
+            "wednesday": "Quarta-feira",
+            "friday": "Sexta-feira",
+            "saturday": "Sábado",
+            "sunday": "Domingo"
+          },
+          "weekdays_abbreviation": {
+            "monday": "Seg",
+            "tuesday": "Ter",
+            "wednesday": "Qua",
+            "thursday": "Qui",
+            "friday": "Sex"
           }
         }
       }
