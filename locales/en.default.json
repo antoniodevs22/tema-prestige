@@ -888,7 +888,14 @@
         "phone_rollup_accessibility_label": "Opções de telefone",
         "phone_country_code_label": "Código de país do telefone",
         "optional_phone_label": "Telefone ",
-        "phone_placeholder": "Telefone"
+        "phone_placeholder": "Telefone",
+        "phone_tooltip": "Caso precisemos entrar em contato sobre o seu pedido",
+        "zip_code_label": "CEP",
+        "optional_zip_code_label": "CEP",
+        "zip_code_placeholder": "CEP",
+        "postal_code_label": "Código postal / CEP",
+        "optional_postal_code_label": "Código postal / CEP",
+        "postal_code_placeholder": "Código postal / CEP"
       }
     },
     "sentence": {
