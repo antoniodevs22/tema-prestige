@@ -690,7 +690,18 @@
             "saved_payment_methods_cvv_verification_disabled": "O método de pagamento selecionado exige verificação de CVV, que não está ativada para esta loja. Selecione um método de pagamento diferente.",
             "store_credit_not_enabled": "O crédito da loja não está ativado para esta loja.",
             "store_credit_account_not_found": "Conta de crédito da loja não encontrada.",
-            "store_credit_account_mismatch": "A conta de crédito da loja não corresponde à identidade do comprador."
+            "store_credit_account_mismatch": "A conta de crédito da loja não corresponde à identidade do comprador.",
+            "store_credit_mismatched_currency": "A moeda da conta de crédito da loja não corresponde à moeda do checkout.",
+            "store_credit_insufficient_funds": "Saldo insuficiente na conta de crédito da loja.",
+            "store_credit_buying_gift_card": "Você não pode usar o crédito da loja para comprar um vale-presente.",
+            "gift_cards_not_allowed_for_b2b": "Vales-presente não são permitidos em lojas B2B.",
+            "method_required": "Um método de pagamento deve ser proposto.",
+            "paypal_express_address_invalid": "O PayPal retornou um endereço inválido."
+          },
+          "tip": {
+            "not_accepted_by_shop": "A loja não aceita gorjetas.",
+            "only_one_tip_line_allowed": "Várias linhas de gorjeta não são permitidas.",
+            "tips_not_allowed_for_b2b": "Gorjetas não são permitidas em lojas B2B."
           }
         }
       }
