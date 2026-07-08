@@ -518,7 +518,8 @@
         "pay_now_button_label": "Pagar Agora",
         "finalize_order_accessibility_label": "Finalizar Pedido",
         "authenticate_purchase_button_label": "Autenticar Pagamento",
-        "edit_link_label": "Editar"
+        "edit_link_label": "Editar",
+        "all_rights_reserved": "Todos os direitos reservados {{ shop_name }}"
       }
     }
   }
