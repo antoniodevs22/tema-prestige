@@ -546,7 +546,8 @@
         "tooltip_accessibility_label": "Mais Informações",
         "full_price": "Preço cheio",
         "confirm_order_button_label": "Confirmar Pedido",
-        "submit_order_button_label": "Enviar Pedido"
+        "submit_order_button_label": "Enviar Pedido",
+        "submit_for_review_button_label": "Enviar para análise"
       }
     },
     "sentence": {
