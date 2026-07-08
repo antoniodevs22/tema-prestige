@@ -555,7 +555,9 @@
         "autocomplete_zero_item": "Nenhum item disponível",
         "submit": "Enviar",
         "processing": "Processamento...",
-        "remove_chip": "Remover  item"
+        "remove_chip": "Remover  item",
+        "remove_item": "Remover {{ label }}",
+        "remove_tag": "Remover Etiqueta"
       }
     },
     "sentence": {
