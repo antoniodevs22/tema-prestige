@@ -592,7 +592,18 @@
             "product_not_published_in_buyer_location": "O produto não está disponível para a localização atual do comprador.",
             "duplicated_stable_id": "Esta linha de mercadoria possui o mesmo ID estável que outra linha.",
             "minimum_quantity_not_met": "A quantidade de alguns itens não atinge o mínimo exigido.",
-            "maximum_quantity_exceeded": "A quantidade de alguns itens excede o máximo permitido."
+            "maximum_quantity_exceeded": "A quantidade de alguns itens excede o máximo permitido.",
+            "quantity_increment_not_met": "A quantidade de alguns itens não atende aos limites do pedido.",
+            "quantity_rules_not_met": "A quantidade de alguns itens não atende aos limites do pedido.",
+            "bundle_requires_components": "Este produto de kit não possui componentes.",
+            "combined_listing_parent_not_purchasable": "Os produtos pai de listagem combinada não podem ser comprados diretamente.",
+            "title_too_long": "O título da mercadoria é muito longo.",
+            "title_empty": "O título da mercadoria está vazio."
+          },
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "O contato da empresa não tem acesso à empresa.",
+            "customer_account_required": "Você precisa fazer login para continuar.",
+            "company_location_required": "O cliente deve escolher um local da empresa para continuar."
           }
         }
       }
