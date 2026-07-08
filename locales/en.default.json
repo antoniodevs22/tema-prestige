@@ -801,6 +801,12 @@
             "lastWordConnector": "{{previousWords}} ou {{lastWord}}",
             "twoWordConnector": "{{firstWord}} ou {{secondWord}}"
           }
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Agrupamento de {{number}} marcador",
+            "other": "Agrupamento de {{number}} marcadores"
+          }
         }
       }
     },
