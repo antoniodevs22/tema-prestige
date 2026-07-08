@@ -521,7 +521,10 @@
         "edit_link_label": "Editar",
         "all_rights_reserved": "Todos os direitos reservados {{ shop_name }}",
         "print_policies_link_label": "Imprimir",
-        "cart": "Carrinho"
+        "cart": "Carrinho",
+        "close_modal_label": "Fechar",
+        "close_notice_label": "Fechar",
+        "expand_notice_label": "Ver mais"
       }
     }
   }
