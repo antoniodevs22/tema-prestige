@@ -526,7 +526,8 @@
         "close_notice_label": "Fechar",
         "expand_notice_label": "Ver mais",
         "continue_to_shipping_method": "Prosseguir para o envio",
-        "continue_to_payment_method": "Prosseguir para o pagamento"
+        "continue_to_payment_method": "Prosseguir para o pagamento",
+        "continue_to_review": "Revisar Pedido"
       }
     }
   }
