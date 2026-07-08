@@ -912,7 +912,17 @@
       },
       "delivery_options": {
         "free_total_label": "Gratuito",
-        "ship": "Enviar"
+        "ship": "Enviar",
+        "ship_to_address": "Enviar para um endereço",
+        "shipping_address": "Endereço de envio",
+        "pick_up": "Retirada",
+        "pick_up_from_store": "Retirar na loja",
+        "pick_up_locations": "Locais de retirada",
+        "pickup_point_map_title": "Mapa dos pontos de retirada",
+        "pick_up_in_one_hour": "Geralmente pronto em 1 hora",
+        "pick_up_in_two_hours": "Geralmente pronto em 2 horas",
+        "pick_up_in_four_hours": "Geralmente pronto em 4 horas",
+        "pick_up_in_twenty_four_hours": "Geralmente pronto em 24 horas"
       }
     },
     "sentence": {
