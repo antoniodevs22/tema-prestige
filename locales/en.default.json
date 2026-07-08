@@ -603,7 +603,17 @@
           "buyer_identity": {
             "business_customer_does_not_match_company": "O contato da empresa não tem acesso à empresa.",
             "customer_account_required": "Você precisa fazer login para continuar.",
-            "company_location_required": "O cliente deve escolher um local da empresa para continuar."
+            "company_location_required": "O cliente deve escolher um local da empresa para continuar.",
+            "company_purchase_permission_required": "O cliente não tem permissão para fazer pedidos da empresa.",
+            "personal_order_not_allowed": "Pedidos pessoais não são permitidos para esta loja.",
+            "lost_access_to_company": "O cliente perdeu o acesso a qualquer empresa.",
+            "contact_info_does_not_match_customer_account": "As informações de contato devem coincidir com a conta na qual você está conectado.",
+            "phone_number_does_not_match_expected_pattern": "O número de telefone especificado não corresponde ao padrão esperado.",
+            "email_required": "Um e-mail é obrigatório quando a mercadoria é comprada por meio de uma assinatura.",
+            "email_domain_is_invalid": "O domínio especificado não pôde ser resolvido.",
+            "missing_contact_method": "Falta um método de contato válido.",
+            "checkout_completion_target_is_missing": "O destino de conclusão do checkout está ausente.",
+            "invalid_customer_profile": "Um perfil de cliente inválido foi fornecido."
           }
         }
       }
