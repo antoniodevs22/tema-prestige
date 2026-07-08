@@ -534,7 +534,8 @@
         "choose_shipping_method": "Escolha um método de envio",
         "choose_payment_method": "Escolha uma forma de pagamento",
         "choose_billing_address": "Escolha um endereço de faturamento",
-        "contact_us_html": "Entre em contato conosco para mais informações"
+        "contact_us_html": "Entre em contato conosco para mais informações",
+        "autocomplete_single_item": "1 Item disponível"
       }
     }
   }
