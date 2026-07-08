@@ -528,7 +528,9 @@
         "continue_to_shipping_method": "Prosseguir para o envio",
         "continue_to_payment_method": "Prosseguir para o pagamento",
         "continue_to_review": "Revisar Pedido",
-        "back_to_payment_method": "Retornar ao Pagamento"
+        "back_to_payment_method": "Retornar ao Pagamento",
+        "back_to_contact_information": "Retornar às Informações",
+        "back_to_shipping_method": "Retornar ao Envio"
       }
     }
   }
