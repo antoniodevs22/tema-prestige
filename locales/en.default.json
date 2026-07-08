@@ -533,7 +533,8 @@
         "back_to_shipping_method": "Retornar ao Envio",
         "choose_shipping_method": "Escolha um método de envio",
         "choose_payment_method": "Escolha uma forma de pagamento",
-        "choose_billing_address": "Escolha um endereço de faturamento"
+        "choose_billing_address": "Escolha um endereço de faturamento",
+        "contact_us_html": "Entre em contato conosco para mais informações"
       }
     }
   }
