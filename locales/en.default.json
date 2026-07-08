@@ -554,7 +554,8 @@
         "choose_delivery_strategy": "Escolha um método de entrega",
         "autocomplete_zero_item": "Nenhum item disponível",
         "submit": "Enviar",
-        "processing": "Processamento..."
+        "processing": "Processamento...",
+        "remove_chip": "Remover  item"
       }
     },
     "sentence": {
