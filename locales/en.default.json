@@ -816,6 +816,11 @@
           "invalid_file_type": "Tipo de arquivo não suportado",
           "dragged_over": "Solte o arquivo para enviar"
         }
+      },
+      "embed": {
+        "header": {
+          "review_order": "Revise seu pedido"
+        }
       }
     },
     "sentence": {
