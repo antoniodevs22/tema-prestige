@@ -538,7 +538,8 @@
         "autocomplete_single_item": "1 Item disponível",
         "error_page_title": "Erro",
         "skip_to_content": "Pular para o conteúdo",
-        "breadcrumb": "Trilha de navegação"
+        "breadcrumb": "Trilha de navegação",
+        "autocomplete_title": "Sugestões"
       }
     },
     "sentence": {
