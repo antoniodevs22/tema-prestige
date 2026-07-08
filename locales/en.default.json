@@ -514,7 +514,8 @@
   "shopify": {
     "checkout": {
       "general": {
-        "complete_purchase_button_label": "Complete seu Pedido"
+        "complete_purchase_button_label": "Complete seu Pedido",
+        "pay_now_button_label": "Pagar Agora"
       }
     }
   }
