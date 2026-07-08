@@ -740,6 +740,22 @@
           },
           "fx_reconciliation_override": {
             "shop_currency_mismatch": "O valor recebido deve ser na moeda da loja."
+          },
+          "checkout_source": {
+            "revoked": "Este checkout não está mais disponível."
+          }
+        },
+        "stepper": {
+          "increase": "Aumentar {{type}}",
+          "decrease": "Diminuir {{type}}",
+          "minimum_reached": "Mínimo de {{value}} atingido",
+          "maximum_reached": "Máximo de {{value}} atingido"
+        },
+        "dates": {
+          "weekdays": {
+            "monday": "Segunda-feira",
+            "tuesday": "Terça-feira",
+            "thursday": "Quarta-feira"
           }
         }
       }
