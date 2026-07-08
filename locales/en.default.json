@@ -844,7 +844,19 @@
         "email_or_phone_label": "E-mail ou número de telefone celular",
         "email_or_phone_placeholder": "E-mail ou número de telefone celular",
         "field_saved_label": "Salvo",
-        "field_tooltip_helper_text": "Usado para confirmação do seu pedido e lembretes de carrinho"
+        "field_tooltip_helper_text": "Usado para confirmação do seu pedido e lembretes de carrinho",
+        "field_tooltip_accessibility_label": "Mais informações sobre como suas informações de contato são usadas",
+        "stored_addresses_label": "Endereços salvos",
+        "available_addresses_label": "Endereços disponíveis",
+        "new_address_label": "Usar um novo endereço",
+        "first_name_label": "Nome",
+        "optional_first_name_label": "Nome (opcional)",
+        "last_name_label": "Sobrenome",
+        "company_label": "Empresa",
+        "storefront_link": "site da loja",
+        "company_attention_label": "Empresa/Aos cuidados de",
+        "optional_company_attention_label": "Empresa/Aos cuidados de (opcional)",
+        "optional_company_label": "Empresa (opcional)"
       }
     },
     "sentence": {
