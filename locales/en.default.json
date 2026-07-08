@@ -922,7 +922,16 @@
         "pick_up_in_one_hour": "Geralmente pronto em 1 hora",
         "pick_up_in_two_hours": "Geralmente pronto em 2 horas",
         "pick_up_in_four_hours": "Geralmente pronto em 4 horas",
-        "pick_up_in_twenty_four_hours": "Geralmente pronto em 24 horas"
+        "pick_up_in_twenty_four_hours": "Geralmente pronto em 24 horas",
+        "pick_up_in_two_to_four_days": "Geralmente pronto em 2 a 4 dias",
+        "pick_up_in_five_or_more_days": "Geralmente pronto em 5 ou mais dias",
+        "pick_up_in_zero_to_two_hours": "Pronto para retirada em até 2 horas",
+        "pick_up_in_two_to_four_hours": "Pronto para retirada em até 4 horas",
+        "pick_up_immediately": "Pronto para retirada agora",
+        "pick_up_next_day": "Pronto para retirada no próximo dia",
+        "pickup_point_method_definition": "Enviar para um ponto de retirada",
+        "retail_method_definition": "Envio de varejo",
+        "company_location_no_address_banner": "Pedidos enviados para locais sem endereço serão enviados para análise."
       }
     },
     "sentence": {
