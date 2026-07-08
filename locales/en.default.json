@@ -562,6 +562,9 @@
           "new_window": "Abre em uma nova janela",
           "external": "Abre um site externo",
           "external_and_new_window": "Abre um site externo em uma nova janela."
+        },
+        "errors": {
+          "only_empty_terms_accepted": "Esta política aceita apenas termos vazios."
         }
       }
     },
