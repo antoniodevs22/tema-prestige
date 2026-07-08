@@ -856,7 +856,18 @@
         "storefront_link": "site da loja",
         "company_attention_label": "Empresa/Aos cuidados de",
         "optional_company_attention_label": "Empresa/Aos cuidados de (opcional)",
-        "optional_company_label": "Empresa (opcional)"
+        "optional_company_label": "Empresa (opcional)",
+        "address1_label": "Endereço",
+        "optional_street_name_label": "Rua",
+        "address2_label": "Apartamento, bloco, casa, etc.",
+        "optional_address2_label": "Apartamento, bloco, casa, etc. (opcional)",
+        "subdistrict_label": "Bairro",
+        "optional_subdistrict_label": "Bairro (opcional)",
+        "city_label": "Cidade",
+        "suburb_label": "Região/Bairro",
+        "country_label": "País/Região",
+        "country_code": "Código do País/Região",
+        "province_label": "Estado"
       }
     },
     "sentence": {
