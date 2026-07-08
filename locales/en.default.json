@@ -545,7 +545,8 @@
         "autocomplete_close": "Fechar Sugestões",
         "tooltip_accessibility_label": "Mais Informações",
         "full_price": "Preço cheio",
-        "confirm_order_button_label": "Confirmar Pedido"
+        "confirm_order_button_label": "Confirmar Pedido",
+        "submit_order_button_label": "Enviar Pedido"
       }
     },
     "sentence": {
