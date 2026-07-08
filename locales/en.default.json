@@ -766,7 +766,9 @@
             "tuesday": "Ter",
             "wednesday": "Qua",
             "thursday": "Qui",
-            "friday": "Sex"
+            "friday": "Sex",
+            "saturday": "Sáb",
+            "sunday": "Dom"
           }
         }
       }
