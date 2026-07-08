@@ -547,7 +547,8 @@
         "full_price": "Preço cheio",
         "confirm_order_button_label": "Confirmar Pedido",
         "submit_order_button_label": "Enviar Pedido",
-        "submit_for_review_button_label": "Enviar para análise"
+        "submit_for_review_button_label": "Enviar para análise",
+        "submit_for_review_notice_label": "O pagamento não será devido até que seu pedido seja analisado."
       }
     },
     "sentence": {
