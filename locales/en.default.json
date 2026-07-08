@@ -894,8 +894,17 @@
         "optional_zip_code_label": "CEP",
         "zip_code_placeholder": "CEP",
         "postal_code_label": "Código postal / CEP",
-        "optional_postal_code_label": "Código postal / CEP",
-        "postal_code_placeholder": "Código postal / CEP"
+        "optional_postal_code_label": "Código postal / CEP (opcional)",
+        "postal_code_placeholder": "Código postal / CEP",
+        "postcode_label": "Código postal / CEP",
+        "optional_postcode_label": "Código postal / CEP (opcional)",
+        "postcode_placeholder": "Código postal / CEP",
+        "pincode_label": "Código PIN / CEP",
+        "optional_pincode_label": "Código PIN / CEP (opcional)",
+        "pincode_placeholder": "Código PIN / CEP",
+        "civic_number_warning": "Adicione o número da casa/prédio, se houver",
+        "optional_last_name_label": "Sobrenome (opcional)",
+        "different_shipping_address_label": "Enviar para um endereço diferente"
       }
     },
     "sentence": {
