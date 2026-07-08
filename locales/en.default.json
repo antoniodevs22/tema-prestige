@@ -573,7 +573,8 @@
             "merchandise_variant_not_found": "Variante do produto não encontrada",
             "merchandise_not_found": "Produto não encontrado.",
             "merchandise_not_applicable": "A variante do produto não pode ser comprada.",
-            "mixed_currencies": "O checkout contém itens com moedas diferentes."
+            "mixed_currencies": "O checkout contém itens com moedas diferentes.",
+            "bundle_products_not_supported_for_b2b": "Itens em pacote não podem ser adicionados a pedidos B2B para este local."
           }
         }
       }
