@@ -570,7 +570,8 @@
           "session_is_already_finished": "Esta sessão de checkout já foi finalizada.",
           "merchandise": {
             "only_value_constraint": "Apenas valores exatos são permitidos na entrada de mercadorias.",
-            "merchandise_variant_not_found": "Variante do produto não encontrada"
+            "merchandise_variant_not_found": "Variante do produto não encontrada",
+            "merchandise_not_found": "Produto não encontrado."
           }
         }
       }
