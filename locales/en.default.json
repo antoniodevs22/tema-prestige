@@ -613,7 +613,19 @@
             "email_domain_is_invalid": "O domínio especificado não pôde ser resolvido.",
             "missing_contact_method": "Falta um método de contato válido.",
             "checkout_completion_target_is_missing": "O destino de conclusão do checkout está ausente.",
-            "invalid_customer_profile": "Um perfil de cliente inválido foi fornecido."
+            "invalid_customer_profile": "Um perfil de cliente inválido foi fornecido.",
+            "customer_profile_access_restricted": "O checkout não tem permissão para acessar o perfil do cliente.",
+            "checkout_completion_target_is_invalid_proc": "Destino de conclusão de checkout inválido.",
+            "buyer_identity_presentment_currency_does_not_match": "Houve um problema ao processar seu pedido. Tente novamente em alguns minutos."
+          },
+          "delivery": {
+            "only_one_delivery_line_allowed": "O carrinho deve ter apenas uma linha de entrega.",
+            "wrong_number_of_delivery_lines": "Uma linha de entrega deve ser especificada para cada grupo de mercadorias.",
+            "external_delivery_promise_error": "Ocorreu um erro ao buscar a promessa de entrega externa.",
+            "options_instructions_invalid": "As instruções especificadas não correspondem ao padrão esperado.",
+            "destination_address_required": "Um endereço de destino é obrigatório para continuar.",
+            "pickup_points_unavailable": "Os pontos de retirada estão indisponíveis no momento.",
+            "local_pickup_delivery_line_detail_changed": "A estratégia atual de entrega por retirada local deve ser alterada para continuar."
           }
         }
       }
