@@ -582,7 +582,17 @@
             "gift_card_invalid": "O código de vale-presente {{code}} é inválido.",
             "gift_card_code_changed": "O código de vale-presente {{proposed_code}} foi alterado para {{formatted_code}} para estar em conformidade com as regras de formatação.",
             "gift_card_with_attributes_not_supported": "Vales-presente com atributos personalizados não são aceitos neste checkout.",
-            "gift_card_with_components_not_supported": "Vales-presente com componentes não são aceitos neste checkout."
+            "gift_card_with_components_not_supported": "Vales-presente com componentes não são aceitos neste checkout.",
+            "selling_plan_mismatch": "A assinatura foi atualizada.",
+            "selling_plan_not_supported": "Assinaturas não são aceitas.",
+            "selling_plan_not_supported_b2b": "Assinaturas não são aceitas no checkout B2B.",
+            "price_mismatch": "O preço proposto anteriormente para esta mercadoria era inválido e foi atualizado.",
+            "inventory_not_found": "Nenhum estoque encontrado para esta mercadoria.",
+            "product_not_published": "O produto não está publicado.",
+            "product_not_published_in_buyer_location": "O produto não está disponível para a localização atual do comprador.",
+            "duplicated_stable_id": "Esta linha de mercadoria possui o mesmo ID estável que outra linha.",
+            "minimum_quantity_not_met": "A quantidade de alguns itens não atinge o mínimo exigido.",
+            "maximum_quantity_exceeded": "A quantidade de alguns itens excede o máximo permitido."
           }
         }
       }
