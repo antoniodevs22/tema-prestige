@@ -569,7 +569,8 @@
           "line_item_limit_reached": "O número máximo de itens de linha foi atingido.",
           "session_is_already_finished": "Esta sessão de checkout já foi finalizada.",
           "merchandise": {
-            "only_value_constraint": "Apenas valores exatos são permitidos na entrada de mercadorias."
+            "only_value_constraint": "Apenas valores exatos são permitidos na entrada de mercadorias.",
+            "merchandise_variant_not_found": "Variante do produto não encontrada"
           }
         }
       }
