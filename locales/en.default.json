@@ -887,7 +887,8 @@
         "phone_label": "Telefone",
         "phone_rollup_accessibility_label": "Opções de telefone",
         "phone_country_code_label": "Código de país do telefone",
-        "optional_phone_label": "Telefone (opcional)"
+        "optional_phone_label": "Telefone ",
+        "phone_placeholder": "Telefone"
       }
     },
     "sentence": {
