@@ -524,7 +524,8 @@
         "cart": "Carrinho",
         "close_modal_label": "Fechar",
         "close_notice_label": "Fechar",
-        "expand_notice_label": "Ver mais"
+        "expand_notice_label": "Ver mais",
+        "continue_to_shipping_method": "Prosseguir para o envio"
       }
     }
   }
