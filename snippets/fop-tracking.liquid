@@ -97,7 +97,7 @@
   {% if request.page_type == 'product' %}
     trackEvent('ViewContent', {
       content_ids: ['{{ product.id }}'],
-      content_name: '{{ product.title | escape }}',
+      content_name: {{ product.title | json }},
       content_type: 'product',
       value: {{ product.price | divided_by: 100.0 }},
       currency: '{{ cart.currency.iso_code }}'
