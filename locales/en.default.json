@@ -635,7 +635,12 @@
             "auto_fulfill_required": "O atendimento automático é obrigatório quando o método de entrega VAREJO é solicitado.",
             "prefetch_shipping_rates_used": "As tarifas de envio pré-buscadas nunca devem retornar tarifas.",
             "fulfillment_constraints_not_satisfied": "Uma ou mais restrições de atendimento não foram atendidas.",
-            "must_fulfill_from_constraint_not_satisfied": "As restrições de atendimento não foram atendidas porque os itens não podem ser processados a partir dos locais obrigatórios."
+            "must_fulfill_from_constraint_not_satisfied": "As restrições de atendimento não foram atendidas porque os itens não podem ser processados a partir dos locais obrigatórios.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "As restrições de atendimento não foram atendidas porque os itens não podem ser processados a partir do mesmo local.",
+            "delivery_strategy_conditions_not_satisfied": "As estratégias de entrega estão disponíveis para este local, mas suas condições não foram atendidas.",
+            "out_of_stock_at_origin_location": "Não há estoque no local de origem.",
+            "invalid_signature": "Assinatura de desconto inválida.",
+            "mixed_destination_countries": "A entrega não está disponível porque as linhas de entrega abrangem vários países."
           }
         }
       }
