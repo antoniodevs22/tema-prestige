@@ -537,6 +537,10 @@
         "contact_us_html": "Entre em contato conosco para mais informações",
         "autocomplete_single_item": "1 Item disponível"
       }
+    },
+    "sentence": {
+      "two_words_connector": "e",
+      "last_word_connector": ", e "
     }
   }
 }
