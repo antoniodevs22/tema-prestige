@@ -835,7 +835,16 @@
       "contact": {
         "title": "Informações",
         "address_title": "Endereço",
-        "shipping_used_as_billing_notice": "Isso também será usado como seu endereço de cobrança para este pedido."
+        "shipping_used_as_billing_notice": "Isso também será usado como seu endereço de cobrança para este pedido.",
+        "delivery_option_title": "Forma de entrega",
+        "contact_method_title": "Contato",
+        "email_label": "E-mail",
+        "email_rollup_accessibility_label": "Opções de e-mail",
+        "email_placeholder": "E-mail",
+        "email_or_phone_label": "E-mail ou número de telefone celular",
+        "email_or_phone_placeholder": "E-mail ou número de telefone celular",
+        "field_saved_label": "Salvo",
+        "field_tooltip_helper_text": "Usado para confirmação do seu pedido e lembretes de carrinho"
       }
     },
     "sentence": {
