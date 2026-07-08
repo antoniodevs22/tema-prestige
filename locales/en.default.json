@@ -820,7 +820,22 @@
       "embed": {
         "header": {
           "review_order": "Revise seu pedido"
+        },
+        "shipping": {
+          "shipping_options": "Ver todas as opções de frete"
+        },
+        "payment": {
+          "payment_options": "Ver todas as opções de pagamento"
         }
+      },
+      "payment_collection": {
+        "cancelled": "Este pagamento não é mais necessário. Visite a página do pedido para obter detalhes.",
+        "paid": "Este pagamento já foi enviado. Visite a página do pedido para obter detalhes."
+      },
+      "contact": {
+        "title": "Informações",
+        "address_title": "Endereço",
+        "shipping_used_as_billing_notice": "Isso também será usado como seu endereço de cobrança para este pedido."
       }
     },
     "sentence": {
