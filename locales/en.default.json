@@ -543,7 +543,9 @@
         "autocomplete_multi_item": "{{number}} itens disponíveis",
         "autocomplete_selection": "{{number}} de {{total}}",
         "autocomplete_close": "Fechar Sugestões",
-        "tooltip_accessibility_label": "Mais Informações"
+        "tooltip_accessibility_label": "Mais Informações",
+        "full_price": "Preço cheio",
+        "confirm_order_button_label": "Confirmar Pedido"
       }
     },
     "sentence": {
