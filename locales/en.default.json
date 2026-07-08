@@ -581,7 +581,8 @@
             "gift_card_used": "O código de vale-presente {{code}} já está atribuído a um vale-presente. Os códigos são formatados antes da comparação.",
             "gift_card_invalid": "O código de vale-presente {{code}} é inválido.",
             "gift_card_code_changed": "O código de vale-presente {{proposed_code}} foi alterado para {{formatted_code}} para estar em conformidade com as regras de formatação.",
-            "gift_card_with_attributes_not_supported": "Vales-presente com atributos personalizados não são aceitos neste checkout."
+            "gift_card_with_attributes_not_supported": "Vales-presente com atributos personalizados não são aceitos neste checkout.",
+            "gift_card_with_components_not_supported": "Vales-presente com componentes não são aceitos neste checkout."
           }
         }
       }
