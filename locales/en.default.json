@@ -867,7 +867,17 @@
         "suburb_label": "Região/Bairro",
         "country_label": "País/Região",
         "country_code": "Código do País/Região",
-        "province_label": "Estado"
+        "province_label": "Estado",
+        "province_placeholder": "Estado",
+        "county_label": "Município",
+        "county_placeholder": "Município",
+        "state_label": "Estado",
+        "state_placeholder": "Estado",
+        "region_label": "Região",
+        "region_placeholder": "Região",
+        "region_none": "Nenhuma selecionada",
+        "prefecture_label": "Província/Distrito",
+        "prefecture_placeholder": "Província/Distrito"
       }
     },
     "sentence": {
