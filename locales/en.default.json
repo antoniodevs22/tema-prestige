@@ -713,7 +713,20 @@
             "unresolvable_target_merchandise_lines": "As atribuições de venda propostas não podem ser resolvidas devido ao contexto atual de negociação."
           },
           "non_negotiable": {
-            "missing_non_negotiable_terms": "A proposta do seu comprador deve conter termos não negociáveis (non-negotiable_terms)."
+            "missing_non_negotiable_terms": "A proposta do seu comprador deve conter termos não negociáveis (non-negotiable_terms).",
+            "invalid_signature": "A assinatura para {{target_terms}} é inválida."
+          },
+          "inventory": {
+            "missing_quantity_value": "O campo de quantidade está ausente nas linhas de estoque do comprador.",
+            "changing_behavior_not_allowed": "Este cliente não tem permissão para alterar o comportamento do estoque.",
+            "only_one_inventory_behavior_allowed": "Atualmente, apenas um comportamento de estoque é permitido por checkout."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Recusar taxas alfandegárias não é permitido para este checkout."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "A atribuição de varejo não é permitida para este checkout.",
+            "retail_attribution_required": "A atribuição de varejo é obrigatória para este checkout."
           }
         }
       }
