@@ -510,5 +510,12 @@
       },
       "product_subtotal": "Product subtotal"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "general": {
+        "complete_purchase_button_label": "Complete seu Pedido"
+      }
+    }
   }
 }
